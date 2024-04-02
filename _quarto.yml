@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Shakil Rafi"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Talks and Papers"
+        file: talks.qmd
+      - text: "Sevice and Leadership"
+        file: service.qmd
+      - text: "Teaching and Work Experience"
+        file: teaching.qmd
+      - text: "nnR"
+        file: nnr.qmd
+      - text: "About"
+        file: about.qmd
+    tools:
+      - icon: twitter
+        url: https://twitter.com/2shakilrafi
+      - icon: instagram
+        url: https://www.instagram.com/thatbangladeshidude/
+      - icon: linkedin
+        url: https://www.linkedin.com/in/shakilrafi/
+      - icon: facebook
+        url: https://github.com/2shakilrafi
+  page-footer: "© 2024 Shakil Rafi"
+format:
+  html:
+    theme: spacelab
+    css: styles.css
+    toc: true
+
+editor: visual
+
