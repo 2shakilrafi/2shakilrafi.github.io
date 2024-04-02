@@ -1,6 +1,5 @@
 Spring 2022, I am the instructor for College Algebra.
-I mostly teach via whiteboard but also supplement these with\
-one or two-page notes.
+I mostly teach via whiteboard but also supplement these with one or two-page notes.
 [Check them out](https://github.com/2shakilrafi/College_Algebra)\
 The classes I taught, TA'd, and graded for in reverse chronological order are:
 
@@ -8,9 +7,8 @@ The classes I taught, TA'd, and graded for in reverse chronological order are:
 
 -   Programming Language for Data Science, Fall 2023, Lecturer
 
-```{=html}
 <!-- -->
-```
+
 -   Optimization Methods, Spring 2023, TA
 
 -   College Algebra, Fall 2022, Instructor
@@ -39,8 +37,6 @@ The classes I taught, TA'd, and graded for in reverse chronological order are:
 
 -   Pre-Calculus, Fall 2016, TA
 
-I also authored an online course teaching Mathematica 9 for beginners at the level of Pre-Calculus or below\
-at Udemy, the MOOC platform.
-Do note, that I haven't update the course since it launched except for minor corrections\
-and as such does not reflect my current competencies in Mathematica.
-Check it out [here ](https://www.udemy.com/course/mathematica-9-for-beginners/).
+I also authored an online course teaching Mathematica 9 for beginners at the level of Pre-Calculus or below at Udemy, the MOOC platform.
+Do note, that I haven't update the course since it launched except for minor corrections and as such does not reflect my current competencies in Mathematica.
+Check it out [here](https://www.udemy.com/course/mathematica-9-for-beginners/).
