@@ -15,7 +15,7 @@ My project there involved taking users' diabetes and maternity and creating a Ma
 Having finished the project I also embarked on a long term project of using convergent cross mapping techniques (pioneered by Sugihara & May) to predict the cyclical nature of disease.
 This was incomplete by the time I finished my internship.
 
-I was also lucky enough to be invited to participate at the Simons Laufer Mathematical Sciences Institute, SLMath, formerly MSRI, Summer Graduate School in Machine Learning held this year at the University of California, San Diego.
+I was also lucky enough to be invited to participate at the Simons Laufer Mathematical Sciences Institute, SLMath, formerly MSRI (Mathematical Sciences Research Institute), Summer Graduate School in Machine Learning held this year at the University of California, San Diego.
 
 My interests are in researching Numerical Methods to stiff ODEs, particularly the use of artificial neural network methods in solving PDEs, and Brownian motion methods for approximating PDEs particularly via the use of Feynman-Kac.
 Check out my GitHub [here.](https://github.com/2shakilrafi)
