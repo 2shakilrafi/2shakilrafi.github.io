@@ -3,29 +3,21 @@ title: "Hi there!"
 subtitle: "I'm Shakil!"
 ---
 
-I recently completed my PhD in Mathematics in 2024 at the Department of Mathematical Sciences at the University of Arkansas under the supervision of [Dr. Josh Padgett](https://joshpadgett.org/).
-My area of expertise is neural network approximations for certain differential equations, mostly heat equations.
+I recently completed my PhD in Mathematics in 2024 at the Department of Mathematical Sciences at the University of Arkansas under the supervision of [Dr. Josh Padgett](https://joshpadgett.org/). My area of expertise is neural network approximations for certain differential equations, mostly heat equations.
 
-Starting January 2023 I started TA'ing in the Data Science Department at the University of Arkansas, under Drs.
-[Andrew Alverson](https://biology.uark.edu/directory/index/uid/aja/name/Andrew+Alverson/) and [Jeremy Beaulieu](https://biology.uark.edu/directory/faculty/uid/jmbeauli/name/Jeremy+Michael+Beaulieu/) and Dr. [Kelly Sullivan](https://industrial-engineering.uark.edu/directory/index/uid/ksulliv/name/Kelly-Sullivan/).
+Starting January 2023 I started TA'ing in the Data Science Department at the University of Arkansas, under Drs. [Andrew Alverson](https://biology.uark.edu/directory/index/uid/aja/name/Andrew+Alverson/) and [Jeremy Beaulieu](https://biology.uark.edu/directory/faculty/uid/jmbeauli/name/Jeremy+Michael+Beaulieu/) and Dr. [Kelly Sullivan](https://industrial-engineering.uark.edu/directory/index/uid/ksulliv/name/Kelly-Sullivan/).
 
 I have also been offered an summer internship position at Arkansas Blue Cross and Blue Shield, under Dr. Aaron Nototny working on time-series data for predicting health outcomes.
 
-My project there involved taking users' diabetes and maternity and creating a Markov model for the process.
-Having finished the project I also embarked on a long term project of using convergent cross mapping techniques (pioneered by Sugihara & May) to predict the cyclical nature of disease.
-This was incomplete by the time I finished my internship.
+My project there involved taking users' diabetes and maternity and creating a Markov model for the process. Having finished the project I also embarked on a long term project of using convergent cross mapping techniques (pioneered by Sugihara & May) to predict the cyclical nature of disease. This was incomplete by the time I finished my internship.
 
 I was also lucky enough to be invited to participate at the Simons Laufer Mathematical Sciences Institute, SLMath, formerly MSRI (Mathematical Sciences Research Institute), Summer Graduate School in Machine Learning held this year at the University of California, San Diego.
 
-My interests are in researching Numerical Methods to stiff ODEs, particularly the use of artificial neural network methods in solving PDEs, and Brownian motion methods for approximating PDEs particularly via the use of Feynman-Kac.
-Check out my GitHub [here.](https://github.com/2shakilrafi)
+My interests are in researching Numerical Methods to stiff ODEs, particularly the use of artificial neural network methods in solving PDEs, and Brownian motion methods for approximating PDEs particularly via the use of Feynman-Kac. Check out my GitHub [here.](https://github.com/2shakilrafi)
 
 Currently I am a post-doc at the University of Arkansas, Division of Agriculture looking at terabyte-scale genomic datasets applying variational autoencoders and attentive transformers to do better understand disease biomarkers in DNA.
 
-I also did my MSc.
-in Pure Mathematics here at the University of Arkansas.
-Whereas my BSc.
-was in Mathematics and Philosophy at Troy University in Troy, Alabama.
+I also did my MSc. in Pure Mathematics here at the University of Arkansas. Whereas my BSc. was in Mathematics and Philosophy at Troy University in Troy, Alabama.
 
 Check out my [LinkedIn](https://www.linkedin.com/in/shakilrafi/) and my (as of March 2023) resume [here](https://github.com/2shakilrafi/2shakilrafi.github.io/blob/main/Rafi-resume.pdf) and CV [here](https://github.com/2shakilrafi/2shakilrafi.github.io/blob/main/CV.pdf,).
 
