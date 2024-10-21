@@ -29,9 +29,14 @@ website:
       - icon: github
         url: https://github.com/2shakilrafi
   page-footer: "© 2024 Shakil Rafi"
+  open-graph: true
+  twitter-card: true
+  cookie-consent: true
 format:
   html:
-    theme: spacelab
+    theme:
+      light: spacelab
+      dark: darkly
     css: styles.css
     toc: true
 
