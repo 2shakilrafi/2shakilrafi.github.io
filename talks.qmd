@@ -4,7 +4,7 @@ Here is a list of various talks and papers I have had over the years.
 
 -   *Neural Networks for Approximating the Heat Equations.* PhD Thesis, March 2024.
 
--   *Maximal Parameter Estimates for Neural Networks and Uncertainties in Approximation.* SIAM Conference on Uncertainty Quantification'24. Trieste, Italy.
+-   *Maximal Parameter Estimates for Neural Networks and Uncertainties in Approximation.* SIAM Conference on Uncertainty Quantification '24. Trieste, Italy.
 
 -   *SOM-Where in Chicago: What self-organizing maps tell us about rideshares in Chicago*, OAK Fall 2023 Conference on Supercomputing, October, 2023.
 

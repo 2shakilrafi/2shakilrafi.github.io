@@ -1,11 +1,57 @@
+## Work Experience
+
+**Lecturer**
+
+*Department of Data Science, Sam M. Walton College of Business, University of Arkansas. Jan 2023 - July 2024.*
+
+-   Taught R, Python, Git, and bash to 100\_ incoming freshmen. 80% received an A/B.
+
+-   Mentored 30+ students in an advanced course on optimization methods using Pyomo and Gurobi. 50% students showed improved grade compared to previous year.\
+
+**Health Economics Intern**,
+
+*Arkansas Blue Cross and Blue Shield. May 2023 - Aug. 2023. Springdale, AR.*
+
+-   ETL'd data from Snowflake using SQL
+
+-   Developed predictive models, using Keras and TensorFlow for patient claims volumes from a dataset of 40000+ claims, going back to 2018. Model showed 85% accuracy.
+
+-   Explored the relationship between the social determinants of health and birth outcomes for our clients using gradient boosted decision trees, XGBoost, LASSO and ridge regression models with 90% accuracy.
+
+-   Built a Markov model of childbirth using Pandas and scikit-learn.
+
+**Senior Graduate Assistant**
+
+*Department of Mathematics*, *University of Arkansas. Jan 2020 – Dec. 2022. Fayetteville, AR*
+
+• Taught pre-calculus, Calculus, Linear Algebra, Differential Equations and intro Statistics.
+
+• Planned lessons and liaison-ed with the course coordinator in a team of five other instructors.
+
+**Graduate Teaching Assistant**
+
+*Department of Mathematics, University of Arkansas. Aug. 2016 – Dec. 2019. Fayetteville, AR*
+
+• Graded and held office hours for classes of 30+ students
+
+• Designed courses and planned lessons on advanced linear algebra linear algebra.
+
+**Asst. Business Analyst**
+
+*R.S.S. Wears Ltd. Jun. 2015 - Jul. 2016. Gazipur, Bangladesh*
+
+Build out and maintained the IT infrastructure, including inventory, payroll, website, order tracking, and bookkeeping for a medium garment manufacturing start-up of about 150 employees.
+
+------------------------------------------------------------------------
+
+## Teaching Experience
+
 Spring 2022, I am the instructor for College Algebra. I mostly teach via whiteboard but also supplement these with one or two-page notes. [Check them out](https://github.com/2shakilrafi/College_Algebra)\
 The classes I taught, TA'd, and graded for in reverse chronological order are:
 
 -   Optimization Methods, Spring 2024, TA
 
 -   Programming Language for Data Science, Fall 2023, Lecturer
-
-<!-- -->
 
 -   Optimization Methods, Spring 2023, TA
 
