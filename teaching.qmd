@@ -5,9 +5,9 @@
 - Wrangle, extract, transform, and load 1 TB+ datasets of human genetics
 - Use advanced machine learning tools like decision tree regression, heirarchical clustering, and deep learning to gain predictive insights from genomic data, e.g. does the presence of CHRNA5 gene predispose someone to be a heavy smoker?
 - Collaborate and serve as external consultant to various parties across academia and industry. Some of the clients include:
-      - Cobb Genetics, Inc. looking to use advanced data science and machine learning skills          to improve chicken yield.
-      - UAB Heersink School of Medicine looking at genomic analysis of gut bacterial samples          of patients.
-      - USDA Food Safety testing team for classification of chicken salmonella based on               genomic data.
+      * Cobb Genetics, Inc. looking to use advanced data science and machine learning skills          to improve chicken yield.
+      * UAB Heersink School of Medicine looking at genomic analysis of gut bacterial samples          of patients.
+      * USDA Food Safety testing team for classification of chicken salmonella based on               genomic data.
 
 **Lecturer**
 
