@@ -1,6 +1,7 @@
 #### Work Experience
 
 **Post-doctoral Fellow**
+*University of Arkansas Division of Agriculture and Research Extension. Aug. 2024 - Present. Little Rock, AR.*
 
 - Wrangle, extract, transform, and load 1 TB+ datasets of human genetics
 - Use advanced machine learning tools like decision tree regression, heirarchical clustering, and deep learning to gain predictive insights from genomic data, e.g. does the presence of CHRNA5 gene predispose someone to be a heavy smoker?
@@ -10,15 +11,13 @@
       * USDA Food Safety testing team for classification of chicken salmonella based on               genomic data.
 
 **Lecturer**
-
-*Department of Data Science, Sam M. Walton College of Business, University of Arkansas. Jan 2023 - July 2024.*
+*Department of Data Science, Sam M. Walton College of Business, University of Arkansas. Jan 2023 - July 2024. Fayetteville, AR.*
 
 -   Taught R, Python, Git, and bash to 100\_ incoming freshmen. 80% received an A/B.
 
 -   Mentored 30+ students in an advanced course on optimization methods using Pyomo and Gurobi. 50% students showed improved grade compared to previous year.\
 
 **Health Economics Intern**,
-
 *Arkansas Blue Cross and Blue Shield. May 2023 - Aug. 2023. Springdale, AR.*
 
 -   ETL'd data from Snowflake using SQL
@@ -30,26 +29,29 @@
 -   Built a Markov model of childbirth using Pandas and scikit-learn.
 
 **Senior Graduate Assistant**
-
-*Department of Mathematics*, *University of Arkansas. Jan 2020 – Dec. 2022. Fayetteville, AR*
+*Department of Mathematics*, *University of Arkansas. Jan 2020 – Dec. 2022. Fayetteville, AR.*
 
 • Taught pre-calculus, Calculus, Linear Algebra, Differential Equations and intro Statistics.
 
 • Planned lessons and liaison-ed with the course coordinator in a team of five other instructors.
 
 **Graduate Teaching Assistant**
-
-*Department of Mathematics, University of Arkansas. Aug. 2016 – Dec. 2019. Fayetteville, AR*
+*Department of Mathematics, University of Arkansas. Aug. 2016 – Dec. 2019. Fayetteville, AR.*
 
 • Graded and held office hours for classes of 30+ students
 
 • Designed courses and planned lessons on advanced linear algebra linear algebra.
 
 **Asst. Business Analyst**
+*R.S.S. Wears Ltd. Jun. 2015 - Jul. 2016. Gazipur, Bangladesh.*
 
-*R.S.S. Wears Ltd. Jun. 2015 - Jul. 2016. Gazipur, Bangladesh*
+Built out and maintained the technology stack, including inventory, payroll, website, order tracking, and bookkeeping for a medium garment manufacturing start-up of about 150 employees.
 
-Build out and maintained the IT infrastructure, including inventory, payroll, website, order tracking, and bookkeeping for a medium garment manufacturing start-up of about 150 employees.
+**Concessions Manager**
+*Sodexo, Inc. Aug. 2011 - May 2013. Troy, AL*
+
+Set up concessions for Troy University games, with a team of six
+other people, including logistics, safety, and customer satisfaction.
 
 ------------------------------------------------------------------------
 
