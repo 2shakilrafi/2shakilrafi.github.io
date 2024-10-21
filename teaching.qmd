@@ -1,4 +1,13 @@
-## Work Experience
+#### Work Experience
+
+**Post-doctoral Fellow**
+
+- Wrangle, extract, transform, and load 1 TB+ datasets of human genetics
+- Use advanced machine learning tools like decision tree regression, heirarchical clustering, and deep learning to gain predictive insights from genomic data, e.g. does the presence of CHRNA5 gene predispose someone to be a heavy smoker?
+- Collaborate and serve as external consultant to various parties across academia and industry. Some of the clients include:
+      - Cobb Genetics, Inc. looking to use advanced data science and machine learning skills          to improve chicken yield.
+      - UAB Heersink School of Medicine looking at genomic analysis of gut bacterial samples          of patients.
+      - USDA Food Safety testing team for classification of chicken salmonella based on               genomic data.
 
 **Lecturer**
 
@@ -44,7 +53,7 @@ Build out and maintained the IT infrastructure, including inventory, payroll, we
 
 ------------------------------------------------------------------------
 
-## Teaching Experience
+#### Teaching Experience
 
 Spring 2022, I am the instructor for College Algebra. I mostly teach via whiteboard but also supplement these with one or two-page notes. [Check them out](https://github.com/2shakilrafi/College_Algebra)\
 The classes I taught, TA'd, and graded for in reverse chronological order are:
