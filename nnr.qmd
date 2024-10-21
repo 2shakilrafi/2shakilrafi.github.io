@@ -1,5 +1,3 @@
-### The Package nnR
+#### The nnR package
 
-I am the author of an R package called nnR.
-It allows you to use neural networks algebraically.
-Specifically allowing you to do scalar left and right multiplication, composition, addition, raising to a power, exponentials, and basic trigonometric functions.
+I am the author of an R package called nnR. It allows you to use neural networks algebraically. Specifically allowing you to do scalar left and right multiplication, composition, addition, raising to a power, exponentials, and basic trigonometric functions.
