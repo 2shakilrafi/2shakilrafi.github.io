@@ -20,6 +20,8 @@ Here is a list of various talks and papers I have had over the years.
 
 -   *An algorithm for determining congruency between n-regular polygons.*MAA National MathFest 2014, Portland, OR
 
+------------------------------------------------------------------------
+
 #### Papers and Pre-prints
 
 -   *Towards an Algebraic Framework for Approximating Functions Using Neural Network Polynomials.* Rafi S., Padgett, J. L., Nakarmi U. Pre-print [here](https://doi.org/10.48550/arXiv.2402.01058)
@@ -34,6 +36,8 @@ Here is a list of various talks and papers I have had over the years.
 
 -   *Nightvale and Existentialism.* Unpublished. Partial fulfilmment for Philosophy requirements.
 
+------------------------------------------------------------------------
+
 #### Workshops
 
 -   *Arkansas Summer Research Institute 2022* In the Summer of 2022 I attended the Arkansas Summer Research Institute. This is an NSF EPSCOR funded workshop aiming to bring promising students from across two dozen different states to provide hands-on experience on real-life machine learning and data science applications.
@@ -41,6 +45,8 @@ Here is a list of various talks and papers I have had over the years.
 <!-- -->
 
 -   *Mathematical Sciences Research Institute / Simons-Laufer Mathematical Scinces Institute* In the summer of 2023 I was honored to participate in the MSRI/SLMath Summer Graduate School on Machine Learning hosted at UC San Diego. Our cohort consisted of students from across the world, including South Korea, Spain, and Togo. Our workshops featured hands on experience with neural networks and lectures on the cutting edge of machine learning, such as overparametrization and adversarial patterns in computer vision.
+
+------------------------------------------------------------------------
 
 #### Posters
 
