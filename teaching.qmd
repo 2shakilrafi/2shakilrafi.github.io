@@ -4,13 +4,7 @@
 
 -   Wrangle, extract, transform, and load 1 TB+ datasets of human genetics
 -   Use advanced machine learning tools like decision tree regression, heirarchical clustering, and deep learning to gain predictive insights from genomic data, e.g. does the presence of CHRNA5 gene predispose someone to be a heavy smoker?
--   Collaborate and serve as external consultant to various parties across academia and industry. Some of the clients include:
-
-Cobb Genetics, Inc. looking to use advanced data science and machine learning skills to improve chicken yield.
-
-UAB Heersink School of Medicine looking at genomic analysis of gut bacterial samples of patients.
-
-USDA Food Safety testing team for classification of chicken salmonella based on genomic data.
+-   Collaborate and serve as external consultant to various parties across academia and industry. Some of the clients include: Cobb Genetics, Inc. looking to use advanced data science and machine learning skills to improve chicken yield, UAB Heersink School of Medicine looking at genomic analysis of gut bacterial samples of patients and USDA Food Safety testing team for classification of chicken salmonella based on genomic data.
 
 **Lecturer** *Department of Data Science, Sam M. Walton College of Business, University of Arkansas. Jan 2023 - July 2024. Fayetteville, AR.*
 
@@ -20,7 +14,7 @@ USDA Food Safety testing team for classification of chicken salmonella based on 
 
 **Health Economics Intern**, *Arkansas Blue Cross and Blue Shield. May 2023 - Aug. 2023. Springdale, AR.*
 
--   ETL'd data from Snowflake using SQL
+-   ELT'd data from Snowflake using SQL
 
 -   Developed predictive models, using Keras and TensorFlow for patient claims volumes from a dataset of 40000+ claims, going back to 2018. Model showed 85% accuracy.
 
@@ -57,35 +51,20 @@ I mostly teach via whiteboard but also supplement these with one or two-page not
 The classes I taught, TA'd, and graded for in reverse chronological order are:
 
 -   Optimization Methods, Spring 2024, TA
-
 -   Programming Language for Data Science, Fall 2023, Lecturer
-
 -   Optimization Methods, Spring 2023, TA
-
 -   College Algebra, Fall 2022, Instructor
-
 -   College Algebra, Spring 2022, Instructor
-
 -   College Algebra, Fall 2021, Instructor
-
 -   Linear Algebra, Spring 2021, Grader
-
 -   College Algebra, Fall 2020, Instructor
-
 -   Linear Algebrra, Spring 2020, Grader
-
 -   College Algebra, Fall 2019, Instructor
-
 -   Calculus II, Spring 2019, TA
-
 -   Calculus II, Fall 2018, TA
-
 -   Linear Algebra, Spring 2018, Grader
-
 -   Pre-Calculus, Fall 2017, TA
-
 -   Pre-Calculus, Spring 2017, TA
-
 -   Pre-Calculus, Fall 2016, TA
 
 I also authored an online course teaching Mathematica 9 for beginners at the level of Pre-Calculus or below at Udemy, the MOOC platform. Do note, that I haven't update the course since it launched except for minor corrections and as such does not reflect my current competencies in Mathematica. Check it out [here](https://www.udemy.com/course/mathematica-9-for-beginners/).
