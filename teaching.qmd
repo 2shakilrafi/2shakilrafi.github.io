@@ -8,9 +8,9 @@
 
 **Lecturer** *Department of Data Science, Sam M. Walton College of Business, University of Arkansas. Jan 2023 - July 2024. Fayetteville, AR.*
 
--   Taught R, Python, Git, and bash to 100\_ incoming freshmen. 80% received an A/B.
+-   Taught R, Python, Git, and bash to 100+ incoming freshmen. 80% received an A/B.
 
--   Mentored 30+ students in an advanced course on optimization methods using Pyomo and Gurobi. 50% students showed improved grade compared to previous year.\
+-   Mentored 30+ students in an advanced course on optimization methods using Pyomo and Gurobi. 50% students showed improved grade compared to previous year.
 
 **Health Economics Intern**, *Arkansas Blue Cross and Blue Shield. May 2023 - Aug. 2023. Springdale, AR.*
 
@@ -67,7 +67,7 @@ The classes I taught, TA'd, and graded for in reverse chronological order are:
 -   Pre-Calculus, Spring 2017, TA
 -   Pre-Calculus, Fall 2016, TA
 
-I also authored an online course teaching Mathematica 9 for beginners at the level of Pre-Calculus or below at Udemy, the MOOC platform. Do note, that I haven't update the course since it launched except for minor corrections and as such does not reflect my current competencies in Mathematica. Check it out [here](https://www.udemy.com/course/mathematica-9-for-beginners/).
+I also authored an online course teaching Mathematica 9 for beginners at the level of Pre-Calculus or below at Udemy, the MOOC platform. Do note, that I haven't update the course since it launched except for minor corrections and as such does not reflect my current competencies in Mathematica. Check it out [here](https://www.udemy.com/course/mathematica-9-for-beginners/). 
 
 #### Certifications
 
