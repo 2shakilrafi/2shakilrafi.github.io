@@ -70,6 +70,14 @@ I like learning new skills, and as such, here are a few certifications that I ha
 Over the years I have been lucky enough to get involved in a number of projects with some fantastic
 collaboaratorsL:
 
+**Gut feelings (tentative)** | _Python, R, CUDA, qiime2, Bowtie, plink2, TensorFlow, HPC_. Aug 2024 – Present
+
+• Currently working on using variational autoencoders to perform dimensionality reduction of gut bacterial genomic
+
+data to better understand biomarkers for psychiatric disorders
+• Working on a project to see the effective ness of Transformer models to predict diseases gased on gut bacterial gene
+markers.
+
 **Who rides Uber anyway?** | _Pandas, GeoPandas, leaflet.js, scikit-learn, Plotly, SQL_.	Jan 2022 – Oct 2023
 
 •	Developed a K-means clustering alrgorithm to analyze how richer census tracts in Chicago used Uber compared to poorer census tracts.
