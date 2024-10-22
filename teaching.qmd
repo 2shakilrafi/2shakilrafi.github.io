@@ -18,7 +18,7 @@ Here is a reverse chronological order of the roles I've had over the years:
 
 -   ELT'd data from Snowflake using SQL
 
--   Developed predictive models, using Keras and TensorFlow for patient claims volumes from a dataset of 40000+ claims, going back to 2018. Model showed 85% accuracy.
+-   Developed LSTM models, using Keras and TensorFlow for patient claims volumes from a dataset of 40000+ claims, going back to 2018. Model showed 85% accuracy.
 
 -   Explored the relationship between the social determinants of health and birth outcomes for our clients using gradient boosted decision trees, XGBoost, LASSO and ridge regression models with 90% accuracy.
 
