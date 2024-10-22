@@ -1,5 +1,7 @@
 #### Work Experience
 
+Here is a reverse chronological order of the roles I've had over the years:
+
 **Post-doctoral Fellow** *University of Arkansas Division of Agriculture and Research Extension. Aug. 2024 - Present. Little Rock, AR.*
 
 -   Wrangle, extract, transform, and load 1 TB+ datasets of human genetics
