@@ -13,7 +13,7 @@ website:
         file: talks.qmd
       - text: "Sevice and Leadership"
         file: service.qmd
-      - text: "Teaching and Work Experience"
+      - text: "Skill and Experience"
         file: teaching.qmd
       - text: "nnR"
         file: nnr.qmd

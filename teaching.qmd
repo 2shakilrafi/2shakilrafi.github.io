@@ -44,6 +44,43 @@ Set up concessions for Troy University games, with a team of six other people, i
 
 ------------------------------------------------------------------------
 
+#### Certifications
+
+**Azure AI Engineer Associate.** *In Process, issued by Microsoft, Inc.. 2024*
+
+**Generative AI: Working with Large Language Models.** *Issued by LinkedIn Learning, 2024*
+
+**Fundamentals of Deep Learning.** *Issued by NVIDIA Deep Learning Institute, 2023*
+
+**IBM Data Science Professional.** *Issued by IBM, Inc. 2021.*
+
+**Advanced Google Analytics.** *Issued by Google, Inc. 2018.*
+
+**Certified Wolfram Technology Associate.** *Issued by Wolfram Research, Inc. 2014.*
+
+
+------------------------------------------------------------------------
+
+#### Projects
+
+Over the years I have been lucky enough to get involved in a number of projects with some fantastic
+collaboaratorsL:
+
+**Who rides Uber anyway?** | _Pandas, GeoPandas, leaflet.js, scikit-learn, Plotly, SQL_.	Jan 2022 – Oct 2023
+•	Developed a K-means clustering alrgorithm to analyze how richer census tracts in Chicago used Uber compared to poorer census tracts.
+•	Created an analytical pipeline for large-scale transportation data from the City of Chicago data poral.
+•	Research presented at the SIAM Mathematics of Data Science Conference in San Diego, CA and the Fall ’23 OAK Conference and pre-print on TechrXiv
+
+**UAV Impacts on airplane nose-cones** | _MATLAB, C++, Bash, Git._	Jan. 2022 – Aug. 2022
+•	Modeled the impact of UAVs (drones) on airplane nosecones using Boeing USDZ data.
+•	Ran simulations using the deal.ii finite element method software on campus superclusters.
+
+**Pandemic loan inequality** | _R, ggplot2, tidyverse, Shiny_	May 2022 – Aug. 2022
+•	Developed a regression model to see whether black and women owned business in Arkansas received lower initial federal loans.
+•	Work presented at the Arkansas Summer Research Institute, 2022.
+
+------------------------------------------------------------------------
+
 #### Teaching Experience
 
 I mostly teach via whiteboard but also supplement these with one or two-page notes. [Check them out](https://github.com/2shakilrafi/College_Algebra)
@@ -67,18 +104,4 @@ The classes I taught, TA'd, and graded for in reverse chronological order are:
 -   Pre-Calculus, Spring 2017, TA
 -   Pre-Calculus, Fall 2016, TA
 
-I also authored an online course teaching Mathematica 9 for beginners at the level of Pre-Calculus or below at Udemy, the MOOC platform. Do note, that I haven't update the course since it launched except for minor corrections and as such does not reflect my current competencies in Mathematica. Check it out [here](https://www.udemy.com/course/mathematica-9-for-beginners/). 
-
-#### Certifications
-
-**Azure AI Engineer Associate.** *In Process, issued by Microsoft, Inc.. 2024*
-
-**Generative AI: Working with Large Language Models.** *Issued by LinkedIn Learning, 2024*
-
-**Fundamentals of Deep Learning.** *Issued by NVIDIA Deep Learning Institute, 2023*
-
-**IBM Data Science Professional.** *Issued by IBM, Inc. 2021.*
-
-**Advanced Google Analytics.** ***I**ssued by Google, Inc. 2018.*
-
-**Certified Wolfram Technology Associate.** *Issued by Wolfram Research, Inc. 2014.*
+I also authored an online course teaching Mathematica 9 for beginners at the level of Pre-Calculus or below at Udemy, the MOOC platform. Do note, that I haven't update the course since it launched except for minor corrections and as such does not reflect my current competencies in Mathematica. Check it out [here](https://www.udemy.com/course/mathematica-9-for-beginners/).
