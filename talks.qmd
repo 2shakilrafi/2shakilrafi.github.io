@@ -26,7 +26,9 @@ Here is a list of various talks and papers I have had over the years.
 
 -   *Towards an Algebraic Framework for Approximating Functions Using Neural Network Polynomials.* Rafi S., Padgett, J. L., Nakarmi U. Pre-print [here](https://doi.org/10.48550/arXiv.2402.01058)
 
--   *Who got loans during the the pandemic?* Class, race and gender inequality in the Paycheck Protection Program. Pre-print: [here](https://www.preprints.org/manuscript/202309.0654/v1)
+-   *A Random Walk Down Maternity*. Internal white-paper produced summarizing my work during my internship at Arkansas Blue Cross and Blue Shield. 
+
+-   *Who got loans during the the pandemic? Class, race and gender inequality in the Paycheck Protection Program*. Pre-print: [here](https://www.preprints.org/manuscript/202309.0654/v1)
 
 -   *Who Rides Uber Anyway*: A census tract level analysis and clustering of ride-share for the city of Chicago during the era of the pandemic. Shakil Rafi & Arna Nithila. Preprint: [here](https://www.techrxiv.org/articles/preprint/Who_rides_Uber_anyway_A_census-tract_level_analysis_and_clustering_of_ride-shares_for_the_city_of_Chicago_during_the_era_of_the_pandemic/21076042/2)
 
