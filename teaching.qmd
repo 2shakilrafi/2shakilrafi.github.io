@@ -27,13 +27,11 @@ Here is a reverse chronological order of the roles I've had over the years:
 **Senior Graduate Assistant** *Department of Mathematics*, *University of Arkansas. Jan 2020 – Dec. 2022. Fayetteville, AR.*
 
 • Taught pre-calculus, Calculus, Linear Algebra, Differential Equations and intro Statistics.
-
 • Planned lessons and liaison-ed with the course coordinator in a team of five other instructors.
 
 **Graduate Teaching Assistant** *Department of Mathematics, University of Arkansas. Aug. 2016 – Dec. 2019. Fayetteville, AR.*
 
 • Graded and held office hours for classes of 30+ students
-
 • Designed courses and planned lessons on advanced linear algebra linear algebra.
 
 **Asst. Business Analyst** *R.S.S. Wears Ltd. Jun. 2015 - Jul. 2016. Gazipur, Bangladesh.*
@@ -73,21 +71,17 @@ collaboaratorsL:
 **Who rides Uber anyway?** | _Pandas, GeoPandas, leaflet.js, scikit-learn, Plotly, SQL_.	Jan 2022 – Oct 2023
 
 •	Developed a K-means clustering alrgorithm to analyze how richer census tracts in Chicago used Uber compared to poorer census tracts.
-
 •	Created an analytical pipeline for large-scale transportation data from the City of Chicago data poral.
-
 •	Research presented at the SIAM Mathematics of Data Science Conference in San Diego, CA and the Fall ’23 OAK Conference and pre-print on TechrXiv
 
 **UAV Impacts on airplane nose-cones** | _MATLAB, C++, Bash, Git._	Jan. 2022 – Aug. 2022
 
 •	Modeled the impact of UAVs (drones) on airplane nosecones using Boeing USDZ data.
-
 •	Ran simulations using the deal.ii finite element method software on campus superclusters.
 
 **Pandemic loan inequality** | _R, ggplot2, tidyverse, Shiny_	May 2022 – Aug. 2022
 
 •	Developed a regression model to see whether black and women owned business in Arkansas received lower initial federal loans.
-
 •	Work presented at the Arkansas Summer Research Institute, 2022.
 
 ------------------------------------------------------------------------
