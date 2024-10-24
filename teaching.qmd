@@ -100,7 +100,20 @@ markers.
 
 ------------------------------------------------------------------------
 
-#### Teaching Experience
+#### Workshops
+
+
+-   *Mathematical Sciences Research Institute / Simons-Laufer Mathematical Scinces Institute* In the summer of 2023, I was also nominated by my department head Dr. Andrew Raich to attend the Mathematical Sciences Research Institute (MSRI, now known as Simons Laufer Mathematical Sciences
+Institute), Summer Graduate School on Machine Learning at UC San Diego. I mentored under
+Dr. Mikhail Belkin of the Halicioglu Data Science Institute focusing on over-parametrization
+of artificial intelligence models and why that might be a good thing, and Dr. Yusu Weng on
+adversarial patterns in image recognition.
+
+-   *Arkansas Summer Research Institute 2022* In the Summer of 2022 I attended the Arkansas Summer Research Institute. This is an NSF EPSCOR funded workshop aiming to bring promising students from across two dozen different states to provide hands-on experience on real-life machine learning and data science applications.
+
+------------------------------------------------------------------------
+
+#### College Teaching Experience
 
 I mostly teach via whiteboard but also supplement these with one or two-page notes. [Check them out](https://github.com/2shakilrafi/College_Algebra)
 
