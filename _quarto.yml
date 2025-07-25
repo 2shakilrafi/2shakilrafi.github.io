@@ -9,11 +9,11 @@ website:
     left:
       - text: "Home"
         file: index.qmd
-      - text: "Talks and Papers"
-        file: talks.qmd
-      - text: "Sevice and Leadership"
-        file: service.qmd
-      - text: "Skill and Experience"
+      - text: "Impact"
+        file: impact.qmd
+      - text: "Leadership"
+        file: leadership.qmd
+      - text: "Skills"
         file: teaching.qmd
       - text: "nnR"
         file: nnr.qmd
