@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "Shakil Rafi"
+  title: "Shakil A. Rafi"
   navbar:
     background: primary
     search: true
@@ -20,14 +20,12 @@ website:
       - text: "About"
         file: about.qmd
     tools:
-      - icon: twitter
-        url: https://twitter.com/2shakilrafi
-      - icon: instagram
-        url: https://www.instagram.com/thatbangladeshidude/
       - icon: linkedin
         url: https://www.linkedin.com/in/shakilrafi/
       - icon: github
         url: https://github.com/2shakilrafi
+      - icon: instagram
+        url: https://www.instagram.com/thatbangladeshidude/
   page-footer: "© 2025 Shakil Rafi"
   open-graph: true
   twitter-card: true
