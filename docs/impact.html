@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Hi there! I am Shakil – Shakil A. Rafi</title>
+<title>impact – Shakil A. Rafi</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,13 +92,42 @@ cookieconsent.run({
 </script> 
   
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Hi there! I am Shakil – Shakil A. Rafi">
-<meta property="og:description" content="Award-winning data scientist and data science educator">
+<meta property="og:title" content="Shakil A. Rafi">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Shakil A. Rafi">
-<meta name="twitter:title" content="Hi there! I am Shakil – Shakil A. Rafi">
-<meta name="twitter:description" content="Award-winning data scientist and data science educator">
+<meta name="twitter:title" content="Shakil A. Rafi">
+<meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -282,11 +311,11 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./impact.html"> 
+    <a class="nav-link active" href="./impact.html" aria-current="page"> 
 <span class="menu-text">Impact</span></a>
   </li>  
   <li class="nav-item">
@@ -310,7 +339,6 @@ cookieconsent.run({
             <div class="quarto-navbar-tools tools-wide">
     <a href="https://www.linkedin.com/in/shakilrafi/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://github.com/2shakilrafi" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.instagram.com/thatbangladeshidude/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-instagram"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -324,35 +352,62 @@ cookieconsent.run({
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Hi there! I am Shakil</h1>
-<p class="subtitle lead">Award-winning data scientist and data science educator</p>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<p>Here is a list of various talks and papers I have had over the years.</p>
+<section id="talks" class="level4">
+<h4 class="anchored" data-anchor-id="talks">Talks</h4>
+<ul>
+<li><p><em>Neural Networks for Approximating the Heat Equations.</em> PhD Thesis, March 2024.</p></li>
+<li><p><em>Maximal Parameter Estimates for Neural Networks and Uncertainties in Approximation.</em> SIAM Conference on Uncertainty Quantification ’24. Trieste, Italy.</p></li>
+<li><p><em>SOM-Where in Chicago: What self-organizing maps tell us about rideshares in Chicago</em>, OAK Fall 2023 Conference on Supercomputing, October, 2023.</p></li>
+<li><p><em>Modal Logic and the Multiverse of Madness</em>, Graduate Student Colloquium, 2023</p></li>
+<li><p><em>Why Knot Theorists are Unsure about Tying Shoelaces.</em>, Graduate Student Colloquium, February, 2022</p></li>
+<li><p><em>Heegard Splittings and Basic Theorems About Them.</em> Graduate Student Colloquium, Septermber 2020</p></li>
+<li><p><em>Topology and Computation.</em>Graduate Student Colloquium, January 2020</p></li>
+<li><p><em>Turing Machines and the Halting Problem.</em> MAA Regional MathFest Troy University, Troy, AL</p></li>
+<li><p><em>An algorithm for determining congruency between n-regular polygons.</em>MAA National MathFest 2014, Portland, OR</p></li>
+</ul>
+<hr>
+</section>
+<section id="papers-and-pre-prints" class="level4">
+<h4 class="anchored" data-anchor-id="papers-and-pre-prints">Papers and Pre-prints</h4>
+<ul>
+<li><p><em>Towards an Algebraic Framework for Approximating Functions Using Neural Network Polynomials.</em> Rafi S., Padgett, J. L., Nakarmi U. Pre-print <a href="https://doi.org/10.48550/arXiv.2402.01058">here</a></p></li>
+<li><p><em>A Random Walk Down Maternity</em>. Internal white-paper produced summarizing my work during my internship at Arkansas Blue Cross and Blue Shield.</p></li>
+<li><p><em>Who got loans during the the pandemic? Class, race and gender inequality in the Paycheck Protection Program</em>. Pre-print: <a href="https://www.preprints.org/manuscript/202309.0654/v1">here</a></p></li>
+<li><p><em>Who Rides Uber Anyway</em>: A census tract level analysis and clustering of ride-share for the city of Chicago during the era of the pandemic. Shakil Rafi &amp; Arna Nithila. Preprint: <a href="https://www.techrxiv.org/articles/preprint/Who_rides_Uber_anyway_A_census-tract_level_analysis_and_clustering_of_ride-shares_for_the_city_of_Chicago_during_the_era_of_the_pandemic/21076042/2">here</a></p></li>
+<li><p><em>An algorithm to determine congruency between two n-regular polygons.</em> Conference Paper submitted to the MAA Mathfest 2014, in Portland, OR Pre-print: <a href="https://www.preprints.org/manuscript/202303.0490/v1">here</a></p></li>
+<li><p><em>Is it worth going outside the cave?</em> Unpublished. Partial fulfillment for Philosophy requirements.</p></li>
+<li><p><em>Nightvale and Existentialism.</em> Unpublished. Partial fulfilmment for Philosophy requirements.</p></li>
+</ul>
+<hr>
+</section>
+<section id="workshops" class="level4">
+<h4 class="anchored" data-anchor-id="workshops">Workshops</h4>
+<ul>
+<li><em>Arkansas Summer Research Institute 2022</em> In the Summer of 2022 I attended the Arkansas Summer Research Institute. This is an NSF EPSCOR funded workshop aiming to bring promising students from across two dozen different states to provide hands-on experience on real-life machine learning and data science applications.</li>
+</ul>
+<!-- -->
+<ul>
+<li><em>Mathematical Sciences Research Institute / Simons-Laufer Mathematical Scinces Institute</em> In the summer of 2023 I was honored to participate in the MSRI/SLMath Summer Graduate School on Machine Learning hosted at UC San Diego. Our cohort consisted of students from across the world, including South Korea, Spain, and Togo. Our workshops featured hands on experience with neural networks and lectures on the cutting edge of machine learning, such as overparametrization and adversarial patterns in computer vision.</li>
+</ul>
+<hr>
+</section>
+<section id="posters" class="level4">
+<h4 class="anchored" data-anchor-id="posters">Posters</h4>
+<ul>
+<li><p><em>Maximal Parameter Estimates for Neural Networks and Uncertainties in Approximation</em>. <strong>SIAM Conference on Uncertainty Quantification, Trieste, Italy</strong>We take a structural description of neural networks first proposed by Peterson and Voightlander, 2019 and further built upon by Grohs et. al, 2020, and further extend this neural network calculus. Along the way we rebuild several bits of well-known machinery in the language of neural networks and show that yes, indeed, parameter estimates are bounded polynomially on the precision of our estimates. We give: 1.Neural network architectures representing Taylor polynomials and <span class="math inline">\(e^x\)</span>. 2. Neural network architectures that are able to simulate a highly modified Monte Carlo sampling from Brownian motions along the function support 3. Neural network estimates for trapezoidal rule 4. And finally for the first time, that neural networks without too many (defined as being polynomial on the precision) parameters may be able to approximate a modified diffusion equation. This adds to the literature in that it builds upon a much needed need to formally axiomatize neural networks, both in terms of the number of parameters and exactly how expressive it can be. Minimal parameter estimates mean neural networks will be more accessible in smaller computing devices, meaning greater access for more people to this amazing technology and it means that more efficient neural networks can be built which reduce environmental impact as we march forward into a more artificial intelligence focused age.</p></li>
+<li><p><em>A Census Tract based clustering analysis of ride-shareing behavior or Chicago residents during the era of the pandemic</em> <strong>Arkansas Spring Lecture Series 2022, Fayetteville, AR</strong>This a presentation of the work upto that time, on segmenting the customers in ride-sharing apps such as Chicago during the year 2020. Held once a year, the Arkansas Spring Lecture Series is a conference bringing together mathematicians from across the world to present the very latest in their research. The theme this year was data science, and featured among others Dr.&nbsp;Yousef Saad, Dr.&nbsp;Sabine van Huffel and Dr.&nbsp;Jack Dongara. It is funded by the University of Arkansas and the NSF.</p></li>
+<li><p><em>An analysis of customer behavior in ride-sharing apps during the era of the pandemic</em> <strong>SIAM Mathematics of Data Science San Diego, CA</strong> We take the work presented earlier in the Arkansas Spring Lecture Series and expand on that. Held every year the Mathematics of Data Science Conference MDS 22 seeks to bring the cutting edge of data science from across the world into one conference. A pre-print can be found <a href="https://www.techrxiv.org/articles/preprint/Who_rides_Uber_anyway_A_census-tract_level_analysis_and_clustering_of_ride-shares_for_the_city_of_Chicago_during_the_era_of_the_pandemic/21076042/2">here</a></p></li>
+</ul>
 
 
-<p>Hi, and welcome to my page. I am currently an award-winning Teaching Assistant Professor at the Department of Data Science at the University of Arkansas.</p>
-<p>I am also an expert data scientist with a range of industry and academic collaborations including with UAB Heersink School of Medicine, Cobb-Vantress Genetics, and the Applied Sciences Performance Institute.</p>
-<p>I was also lucky enough to spend a summer at the Halicioglu Data Science Institute, at the University of California San Diego working on adversarial patterns in computer vision with Dr.&nbsp;Yusu Weng and over-parametrization with Dr.&nbsp;Mikhail Belkin.</p>
-<p>I have also interned at Arkansas Blue Cross and Blue Shield as a health Economics Data Scientist working on creating Markov Models of maternity predicting birth outcomes based on pre-existing conditions.</p>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

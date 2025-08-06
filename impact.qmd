@@ -26,7 +26,7 @@ Here is a list of various talks and papers I have had over the years.
 
 -   *Towards an Algebraic Framework for Approximating Functions Using Neural Network Polynomials.* Rafi S., Padgett, J. L., Nakarmi U. Pre-print [here](https://doi.org/10.48550/arXiv.2402.01058)
 
--   *A Random Walk Down Maternity*. Internal white-paper produced summarizing my work during my internship at Arkansas Blue Cross and Blue Shield. 
+-   *A Random Walk Down Maternity*. Internal white-paper produced summarizing my work during my internship at Arkansas Blue Cross and Blue Shield.
 
 -   *Who got loans during the the pandemic? Class, race and gender inequality in the Paycheck Protection Program*. Pre-print: [here](https://www.preprints.org/manuscript/202309.0654/v1)
 

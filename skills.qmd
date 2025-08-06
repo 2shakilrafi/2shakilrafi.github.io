@@ -62,52 +62,43 @@ I like learning new skills, and as such, here are a few certifications that I ha
 
 **Certified Wolfram Technology Associate.** *Issued by Wolfram Research, Inc. 2014.*
 
-
 ------------------------------------------------------------------------
 
 #### Projects
 
-Over the years I have been lucky enough to get involved in a number of projects with some fantastic
-collaboaratorsL:
+Over the years I have been lucky enough to get involved in a number of projects with some fantastic collaboaratorsL:
 
-**Gut feelings (tentative)** | _Python, R, CUDA, qiime2, Bowtie, plink2, TensorFlow, HPC_. Aug 2024 – Present
+**Gut feelings (tentative)** \| *Python, R, CUDA, qiime2, Bowtie, plink2, TensorFlow, HPC*. Aug 2024 – Present
 
 • Currently working on using variational autoencoders to perform dimensionality reduction of gut bacterial genomic
 
-data to better understand biomarkers for psychiatric disorders
-• Working on a project to see the effective ness of Transformer models to predict diseases gased on gut bacterial gene
-markers.
+data to better understand biomarkers for psychiatric disorders • Working on a project to see the effective ness of Transformer models to predict diseases gased on gut bacterial gene markers.
 
-**Who rides Uber anyway?** | _Pandas, GeoPandas, leaflet.js, scikit-learn, Plotly, SQL_.	Jan 2022 – Oct 2023
+**Who rides Uber anyway?** \| *Pandas, GeoPandas, leaflet.js, scikit-learn, Plotly, SQL*. Jan 2022 – Oct 2023
 
-•	Developed a K-means clustering alrgorithm to analyze how richer census tracts in Chicago used Uber compared to poorer census tracts.
+• Developed a K-means clustering alrgorithm to analyze how richer census tracts in Chicago used Uber compared to poorer census tracts.
 
-•	Created an analytical pipeline for large-scale transportation data from the City of Chicago data poral.
+• Created an analytical pipeline for large-scale transportation data from the City of Chicago data poral.
 
-•	Research presented at the SIAM Mathematics of Data Science Conference in San Diego, CA and the Fall ’23 OAK Conference and pre-print on TechrXiv
+• Research presented at the SIAM Mathematics of Data Science Conference in San Diego, CA and the Fall ’23 OAK Conference and pre-print on TechrXiv
 
-**UAV Impacts on airplane nose-cones** | _MATLAB, C++, Bash, Git._	Jan. 2022 – Aug. 2022
+**UAV Impacts on airplane nose-cones** \| *MATLAB, C++, Bash, Git.* Jan. 2022 – Aug. 2022
 
-•	Modeled the impact of UAVs (drones) on airplane nosecones using Boeing USDZ data.
+• Modeled the impact of UAVs (drones) on airplane nosecones using Boeing USDZ data.
 
-•	Ran simulations using the deal.ii finite element method software on campus superclusters.
+• Ran simulations using the deal.ii finite element method software on campus superclusters.
 
-**Pandemic loan inequality** | _R, ggplot2, tidyverse, Shiny_	May 2022 – Aug. 2022
+**Pandemic loan inequality** \| *R, ggplot2, tidyverse, Shiny* May 2022 – Aug. 2022
 
-•	Developed a regression model to see whether black and women owned business in Arkansas received lower initial federal loans.
+• Developed a regression model to see whether black and women owned business in Arkansas received lower initial federal loans.
 
-•	Work presented at the Arkansas Summer Research Institute, 2022.
+• Work presented at the Arkansas Summer Research Institute, 2022.
 
 ------------------------------------------------------------------------
 
 #### Workshops
 
-
--   *Mathematical Sciences Research Institute / Simons-Laufer Mathematical Scinces Institute* In the summer of 2023, I was also nominated by my department head Dr. Andrew Raich to attend the Mathematical Sciences Research Institute (MSRI, now known as Simons Laufer Mathematical Sciences
-Institute), Summer Graduate School on Machine Learning at UC San Diego. I mentored under
-Dr. Mikhail Belkin of the Halicioglu Data Science Institute focusing on over-parametrization
-of artificial intelligence models and why that might be a good thing, and Dr. Yusu Weng on
-adversarial patterns in image recognition.
+-   *Mathematical Sciences Research Institute / Simons-Laufer Mathematical Scinces Institute* In the summer of 2023, I was also nominated by my department head Dr. Andrew Raich to attend the Mathematical Sciences Research Institute (MSRI, now known as Simons Laufer Mathematical Sciences Institute), Summer Graduate School on Machine Learning at UC San Diego. I mentored under Dr. Mikhail Belkin of the Halicioglu Data Science Institute focusing on over-parametrization of artificial intelligence models and why that might be a good thing, and Dr. Yusu Weng on adversarial patterns in image recognition.
 
 -   *Arkansas Summer Research Institute 2022* In the Summer of 2022 I attended the Arkansas Summer Research Institute. This is an NSF EPSCOR funded workshop aiming to bring promising students from across two dozen different states to provide hands-on experience on real-life machine learning and data science applications.
 

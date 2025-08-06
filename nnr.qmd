@@ -1,4 +1,4 @@
-#### The nnR package
+### The nnR package
 
 I am the author of an R package called `nnR`. It allows you to use neural networks algebraically. Found [here](https://cran.r-project.org/web/packages/nnR/index.html).
 
