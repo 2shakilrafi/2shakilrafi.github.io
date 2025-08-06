@@ -1,0 +1,7 @@
+#### The nnR package
+
+I am the author of an R package called `nnR`. It allows you to use neural networks algebraically. Found [here](https://cran.r-project.org/web/packages/nnR/index.html).
+
+Turns out none of the commonly available deep learning libraries were doing what I wanted to do with neural networks, i.e. allowing you to do scalar left and right multiplication, composition, addition, raising to a power, exponential, and basic trigonometric functions, and neural network polynomials. So I went ahead and architect-ed an `R` package for my own needs.
+
+You can download this by typing `install.packages("nnR")` today.

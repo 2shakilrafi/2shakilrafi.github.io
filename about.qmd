@@ -1,0 +1,21 @@
+---
+title: Shakil Rafi, PhD.
+image: profile.jpg
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: round
+links:
+   - icon: twitter
+     text: twitter
+     href: https://twitter.com
+   - icon: github
+     text: Github
+     href: https://github.com/2shakilrafi
+---
+
+I like to travel, and especially to hike and visit National Parks and road trips. Among them I like taking photographs mostly of grass and sky. My Instagram is [\@thatbangladeshidude](https://www.instagram.com/thatbangladeshidude/).
+
+I also like reading, mostly non-fiction, mostly history, and definitely if it involves economics or geopolitics. You can see my bookshelf,
+
+In my spare time I like to cook, run, and (very badly) play the keyboard. Also doing nothing is kind of fun.

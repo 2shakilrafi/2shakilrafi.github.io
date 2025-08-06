@@ -1,0 +1,12 @@
+---
+title: "Hi there! I am Shakil"
+subtitle: "Award-winning data scientist and data science educator"
+---
+
+Hi, and welcome to my page. I am currently an award-winning Teaching Assistant Professor at the Department of Data Science at the University of Arkansas. 
+
+I am also an expert data scientist with a range of industry and academic collaborations including with UAB Heersink School of Medicine, Cobb-Vantress Genetics, and the Applied Sciences Performance Institute. 
+
+I was also lucky enough to spend a summer at the Halicioglu Data Science Institute, at the University of California San Diego working on adversarial patterns in computer vision with Dr. Yusu Weng and over-parametrization with Dr. Mikhail Belkin. 
+
+I have also interned at Arkansas Blue Cross and Blue Shield as a health Economics Data Scientist working on creating Markov Models of maternity predicting birth outcomes based on pre-existing conditions. 

@@ -1,0 +1,139 @@
+#### Work Experience
+
+Here is a reverse chronological order of the roles I've had over the years:
+
+**Post-doctoral Fellow** *University of Arkansas Division of Agriculture and Research Extension. Aug. 2024 - Present. Little Rock, AR.*
+
+-   Wrangle, extract, transform, and load 1 TB+ datasets of human genetics
+-   Use advanced machine learning tools like decision tree regression, heirarchical clustering, and deep learning to gain predictive insights from genomic data, e.g. does the presence of CHRNA5 gene predispose someone to be a heavy smoker?
+-   Collaborate and serve as external consultant to various parties across academia and industry. Some of the clients include: Cobb Genetics, Inc. looking to use advanced data science and machine learning skills to improve chicken yield, UAB Heersink School of Medicine looking at genomic analysis of gut bacterial samples of patients and USDA Food Safety testing team for classification of chicken salmonella based on genomic data.
+
+**Lecturer** *Department of Data Science, Sam M. Walton College of Business, University of Arkansas. Jan 2023 - July 2024. Fayetteville, AR.*
+
+-   Taught R, Python, Git, and bash to 100+ incoming freshmen. 80% received an A/B.
+
+-   Mentored 30+ students in an advanced course on optimization methods using Pyomo and Gurobi. 50% students showed improved grade compared to previous year.
+
+**Health Economics Intern**, *Arkansas Blue Cross and Blue Shield. May 2023 - Aug. 2023. Springdale, AR.*
+
+-   ELT'd data from Snowflake using SQL
+
+-   Developed LSTM models, using Keras and TensorFlow for patient claims volumes from a dataset of 40000+ claims, going back to 2018. Model showed 85% accuracy.
+
+-   Explored the relationship between the social determinants of health and birth outcomes for our clients using gradient boosted decision trees, XGBoost, LASSO and ridge regression models with 90% accuracy.
+
+-   Built a Markov model of childbirth using Pandas and scikit-learn.
+
+**Senior Graduate Assistant** *Department of Mathematics*, *University of Arkansas. Jan 2020 – Dec. 2022. Fayetteville, AR.*
+
+• Taught pre-calculus, Calculus, Linear Algebra, Differential Equations and intro Statistics.
+
+• Planned lessons and liaison-ed with the course coordinator in a team of five other instructors.
+
+**Graduate Teaching Assistant** *Department of Mathematics, University of Arkansas. Aug. 2016 – Dec. 2019. Fayetteville, AR.*
+
+• Graded and held office hours for classes of 30+ students
+
+• Designed courses and planned lessons on advanced linear algebra linear algebra.
+
+**Asst. Business Analyst** *R.S.S. Wears Ltd. Jun. 2015 - Jul. 2016. Gazipur, Bangladesh.*
+
+Built out and maintained the technology stack, including inventory, payroll, website, order tracking, and bookkeeping for a medium garment manufacturing start-up of about 150 employees.
+
+**Concessions Manager** *Sodexo, Inc. Aug. 2011 - May 2013. Troy, AL*
+
+Set up concessions for Troy University games, with a team of six other people, including logistics, safety, and customer satisfaction.
+
+------------------------------------------------------------------------
+
+#### Certifications
+
+I like learning new skills, and as such, here are a few certifications that I have gone throug over the years
+
+**Azure AI Engineer Associate.** *In Process, issued by Microsoft, Inc.. 2024*
+
+**Generative AI: Working with Large Language Models.** *Issued by LinkedIn Learning, 2024*
+
+**Fundamentals of Deep Learning.** *Issued by NVIDIA Deep Learning Institute, 2023*
+
+**IBM Data Science Professional.** *Issued by IBM, Inc. 2021.*
+
+**Advanced Google Analytics.** *Issued by Google, Inc. 2018.*
+
+**Certified Wolfram Technology Associate.** *Issued by Wolfram Research, Inc. 2014.*
+
+
+------------------------------------------------------------------------
+
+#### Projects
+
+Over the years I have been lucky enough to get involved in a number of projects with some fantastic
+collaboaratorsL:
+
+**Gut feelings (tentative)** | _Python, R, CUDA, qiime2, Bowtie, plink2, TensorFlow, HPC_. Aug 2024 – Present
+
+• Currently working on using variational autoencoders to perform dimensionality reduction of gut bacterial genomic
+
+data to better understand biomarkers for psychiatric disorders
+• Working on a project to see the effective ness of Transformer models to predict diseases gased on gut bacterial gene
+markers.
+
+**Who rides Uber anyway?** | _Pandas, GeoPandas, leaflet.js, scikit-learn, Plotly, SQL_.	Jan 2022 – Oct 2023
+
+•	Developed a K-means clustering alrgorithm to analyze how richer census tracts in Chicago used Uber compared to poorer census tracts.
+
+•	Created an analytical pipeline for large-scale transportation data from the City of Chicago data poral.
+
+•	Research presented at the SIAM Mathematics of Data Science Conference in San Diego, CA and the Fall ’23 OAK Conference and pre-print on TechrXiv
+
+**UAV Impacts on airplane nose-cones** | _MATLAB, C++, Bash, Git._	Jan. 2022 – Aug. 2022
+
+•	Modeled the impact of UAVs (drones) on airplane nosecones using Boeing USDZ data.
+
+•	Ran simulations using the deal.ii finite element method software on campus superclusters.
+
+**Pandemic loan inequality** | _R, ggplot2, tidyverse, Shiny_	May 2022 – Aug. 2022
+
+•	Developed a regression model to see whether black and women owned business in Arkansas received lower initial federal loans.
+
+•	Work presented at the Arkansas Summer Research Institute, 2022.
+
+------------------------------------------------------------------------
+
+#### Workshops
+
+
+-   *Mathematical Sciences Research Institute / Simons-Laufer Mathematical Scinces Institute* In the summer of 2023, I was also nominated by my department head Dr. Andrew Raich to attend the Mathematical Sciences Research Institute (MSRI, now known as Simons Laufer Mathematical Sciences
+Institute), Summer Graduate School on Machine Learning at UC San Diego. I mentored under
+Dr. Mikhail Belkin of the Halicioglu Data Science Institute focusing on over-parametrization
+of artificial intelligence models and why that might be a good thing, and Dr. Yusu Weng on
+adversarial patterns in image recognition.
+
+-   *Arkansas Summer Research Institute 2022* In the Summer of 2022 I attended the Arkansas Summer Research Institute. This is an NSF EPSCOR funded workshop aiming to bring promising students from across two dozen different states to provide hands-on experience on real-life machine learning and data science applications.
+
+------------------------------------------------------------------------
+
+#### College Teaching Experience
+
+I mostly teach via whiteboard but also supplement these with one or two-page notes. [Check them out](https://github.com/2shakilrafi/College_Algebra)
+
+The classes I taught, TA'd, and graded for in reverse chronological order are:
+
+-   Optimization Methods, Spring 2024, TA
+-   Programming Language for Data Science, Fall 2023, Lecturer
+-   Optimization Methods, Spring 2023, TA
+-   College Algebra, Fall 2022, Instructor
+-   College Algebra, Spring 2022, Instructor
+-   College Algebra, Fall 2021, Instructor
+-   Linear Algebra, Spring 2021, Grader
+-   College Algebra, Fall 2020, Instructor
+-   Linear Algebrra, Spring 2020, Grader
+-   College Algebra, Fall 2019, Instructor
+-   Calculus II, Spring 2019, TA
+-   Calculus II, Fall 2018, TA
+-   Linear Algebra, Spring 2018, Grader
+-   Pre-Calculus, Fall 2017, TA
+-   Pre-Calculus, Spring 2017, TA
+-   Pre-Calculus, Fall 2016, TA
+
+I also authored an online course teaching Mathematica 9 for beginners at the level of Pre-Calculus or below at Udemy, the MOOC platform. Do note, that I haven't update the course since it launched except for minor corrections and as such does not reflect my current competencies in Mathematica. Check it out [here](https://www.udemy.com/course/mathematica-9-for-beginners/).

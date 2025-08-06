@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Shakil A. Rafi"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Impact"
+        file: impact.qmd
+      - text: "Leadership"
+        file: leadership.qmd
+      - text: "Skills"
+        file: teaching.qmd
+      - text: "nnR"
+        file: nnr.qmd
+      - text: "About"
+        file: about.qmd
+    tools:
+      - icon: linkedin
+        url: https://www.linkedin.com/in/shakilrafi/
+      - icon: github
+        url: https://github.com/2shakilrafi
+      - icon: instagram
+        url: https://www.instagram.com/thatbangladeshidude/
+  page-footer: "© 2025 Shakil Rafi"
+  open-graph: true
+  twitter-card: true
+  cookie-consent: true
+format:
+  html:
+    theme:
+      light: spacelab
+      dark: darkly
+    css: styles.css
+    toc: true
+
+editor: visual
+
