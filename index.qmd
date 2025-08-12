@@ -1,6 +1,6 @@
 ---
 title: "Hi there! I am Shakil"
-subtitle: "Award-winning data scientist and data science educator"
+subtitle: "Data Scientist and award-winning data science educator"
 ---
 
 Hi, and welcome to my page. I am currently an award-winning Teaching Assistant Professor at the Department of Data Science at the University of Arkansas.
