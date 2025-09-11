@@ -9,11 +9,14 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: experience.qmd
+        text: Experience
+      
 
 format:
   html:
     theme:
-      - skylab
+      - flatly
       - brand
     css: styles.css
     toc: true
