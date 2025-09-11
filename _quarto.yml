@@ -7,7 +7,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
       - about.qmd
       - experience.qmd
       - projects.qmd
@@ -17,8 +17,7 @@ website:
 format:
   html:
     theme:
-      - flatly
-      - brand
+      - journal
     css: styles.css
     toc: true
 
