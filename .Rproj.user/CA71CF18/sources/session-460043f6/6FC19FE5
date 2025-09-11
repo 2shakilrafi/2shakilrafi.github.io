@@ -1,14 +1,14 @@
 {
-    "id": "2E73063D",
-    "path": "~/2shakilrafi.github.io/index.qmd",
-    "project_path": "index.qmd",
+    "id": "6FC19FE5",
+    "path": "~/2shakilrafi.github.io/about.qmd",
+    "project_path": "about.qmd",
     "type": "quarto_markdown",
-    "hash": "3827782225",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1757617667699.0,
+    "created": 1757617963704.0,
     "source_on_save": false,
-    "relative_order": 1,
+    "relative_order": 3,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,14 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "14:0",
-        "cursorPosition": "0,0",
-        "scrollLine": "0"
+        "rmdVisualModeLocation": "24:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1757618002,
+    "lastKnownWriteTime": 1757617665,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1757618002378,
+    "last_content_update": 1757617665,
     "read_only": false,
     "read_only_alternatives": []
 }

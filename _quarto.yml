@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "2shakilrafi.github.io"
+  title: "Shakil A. Rafi, PhD"
   navbar:
     left:
       - href: index.qmd
@@ -13,7 +13,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - skylab
       - brand
     css: styles.css
     toc: true
