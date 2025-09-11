@@ -3,11 +3,11 @@
     "path": "~/2shakilrafi.github.io/about.qmd",
     "project_path": "about.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "284530708",
     "contents": "",
     "dirty": false,
     "created": 1757617963704.0,
-    "source_on_save": false,
+    "source_on_save": true,
     "relative_order": 3,
     "properties": {
         "rmdVisualMode": "true",
@@ -16,7 +16,7 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "24:0"
+        "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
     "lastKnownWriteTime": 1757617665,
