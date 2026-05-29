@@ -8,16 +8,16 @@ website:
     left:
       - href: index.qmd
         text: "Home"
-      - about.qmd
       - experience.qmd
       - projects.qmd
+      - about.qmd
 
       
 
 format:
   html:
     theme:
-      - journal
+      - flatly
     css: styles.css
     toc: true
 
