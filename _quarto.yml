@@ -3,12 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "2shakilrafi.github.io"
+  title: "Shakil A. Rafi, Ph.D."
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
+      - href: experience.qmd
+      - href: projects.qmd
       - about.qmd
+  page-navigation: true
 
 format:
   html:
