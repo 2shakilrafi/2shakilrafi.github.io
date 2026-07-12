@@ -1,14 +1,14 @@
 {
-    "id": "211CAD0E",
-    "path": "~/2shakilrafi.github.io/index.qmd",
-    "project_path": "index.qmd",
+    "id": "E8F90424",
+    "path": "~/2shakilrafi.github.io/about.qmd",
+    "project_path": "about.qmd",
     "type": "quarto_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1783885424930.0,
+    "created": 1783885514197.0,
     "source_on_save": false,
-    "relative_order": 1,
+    "relative_order": 3,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -16,7 +16,7 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "2:0"
+        "rmdVisualModeLocation": "24:0"
     },
     "folds": "",
     "lastKnownWriteTime": 1783885421,
