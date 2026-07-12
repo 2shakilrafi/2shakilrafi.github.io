@@ -3,14 +3,14 @@
     "path": "~/2shakilrafi.github.io/experience.qmd",
     "project_path": "experience.qmd",
     "type": "quarto_markdown",
-    "hash": "181152188",
+    "hash": "1083019471",
     "contents": "",
     "dirty": false,
     "created": 1783885977619.0,
     "source_on_save": false,
     "relative_order": 4,
     "properties": {
-        "rmdVisualMode": "false",
+        "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
         "source_window_id": "",
         "Source": "Source",
@@ -18,14 +18,14 @@
         "scrollLine": "0",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "2:0"
+        "rmdVisualModeLocation": "279:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1783886571,
+    "lastKnownWriteTime": 1783889364,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1783886571528,
+    "last_content_update": 1783889364117,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -5,13 +5,20 @@ project:
 website:
   title: "Shakil A. Rafi, Ph.D."
   navbar:
+    background: primary
+    search: true
+    collapse: true
     left:
       - href: index.qmd
         text: "Home"
       - href: experience.qmd
       - href: projects.qmd
       - about.qmd
-  page-navigation: true
+    tools:
+      - icon: github
+        href: https://www.github.com/2shakilrafi
+      - icon: linkedin
+        href: https://www.linkedin.com/in/shakilrafi
 
 format:
   html:

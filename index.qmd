@@ -4,4 +4,4 @@ title: "Hi there!"
 
 I am Shakil A. Rafi, Ph.D, data scientist and educator. I am currently a Teaching Assistant Professor @ University of Arkansas where I teach advanced machine learning and principles of data science to youngsters. I bring modern business-ready skills to the next generation of data scientists and help them become effective, hard-working, and most importantly ethical data workers.
 
-This website is dedicated to showcasing my projects, writings, and my future goals. Let's chat! You can find me at sarafi\@uark.edu or drop by my office at Bell Engineering at the University of Arkansas campus.
+This website is dedicated to showcasing my projects, writings, and my future goals. Let's chat! You can find me at [sarafi\@uark.edu](mailto:sarafi@uark.edu) or drop by my office at Bell Engineering at the University of Arkansas campus.
