@@ -101,6 +101,10 @@ main.content,
   padding: 0;
 }
 
+#quarto-content > #quarto-document-content {
+  grid-column: screen-start / screen-end;
+}
+
 .navbar {
   min-height: 74px;
   padding: 0.7rem max(24px, calc((100vw - 1180px) / 2));
@@ -1307,6 +1311,14 @@ main.content,
 }
 
 @media (max-width: 420px) {
+  .page-title {
+    font-size: clamp(3.1rem, 15vw, 3.5rem);
+  }
+
+  .cta-panel h2 {
+    font-size: clamp(2.1rem, 10vw, 2.5rem);
+  }
+
   .button-row {
     flex-direction: column;
   }

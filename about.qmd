@@ -27,7 +27,7 @@ canonical-url: "https://2shakilrafi.github.io/about.html"
         <p>Outside the work, I enjoy hiking, the outdoors, and maintaining a long-running status as an aspiring juggler.</p>
       </div>
 
-      <aside class="bio-aside" data-reveal data-reveal-delay="1" aria-label="Profile details">
+      <div class="bio-aside" data-reveal data-reveal-delay="1" role="complementary" aria-label="Profile details">
         <h3>At a glance</h3>
         <dl class="fact-list">
           <div><dt>Based</dt><dd>Fayetteville, Arkansas</dd></div>
@@ -37,7 +37,7 @@ canonical-url: "https://2shakilrafi.github.io/about.html"
           <div><dt>ORCID</dt><dd><a href="https://orcid.org/0000-0003-3791-9697">0000-0003-3791-9697</a></dd></div>
           <div><dt>Contact</dt><dd><a href="mailto:sarafi@uark.edu">sarafi@uark.edu</a></dd></div>
         </dl>
-      </aside>
+      </div>
     </div>
   </section>
 
