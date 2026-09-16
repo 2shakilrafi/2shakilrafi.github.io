@@ -4,6 +4,7 @@ project:
   resources:
     - assets/**
     - robots.txt
+    - styles.css
 
 title-block-style: none
 
@@ -65,7 +66,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    include-in-header: assets/head.html
     include-after-body: assets/after-body.html
     toc: false
     smooth-scroll: true
