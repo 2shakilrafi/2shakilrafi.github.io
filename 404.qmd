@@ -1,0 +1,19 @@
+---
+title: ""
+pagetitle: "Page Not Found"
+page-layout: full
+description: "Page not found"
+---
+
+```{=html}
+<div class="site-shell">
+  <section class="not-found" aria-labelledby="not-found-title">
+    <div class="wrap" data-reveal>
+      <span class="not-found-code">ERROR 404 / SIGNAL NOT FOUND</span>
+      <h1 id="not-found-title">This path wandered off the map.</h1>
+      <p class="section-lede" style="margin-inline: auto">The page may have moved, but the rest of the site is exactly where it should be.</p>
+      <div class="button-row" style="justify-content: center"><a class="button button-primary" href="index.html">Return home <span class="arrow" aria-hidden="true">→</span></a><a class="button button-secondary" href="projects.html">Explore the work</a></div>
+    </div>
+  </section>
+</div>
+```

@@ -1,32 +1,77 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - assets/**
+    - robots.txt
+
+title-block-style: none
 
 website:
   title: "Shakil A. Rafi, Ph.D."
+  site-url: "https://2shakilrafi.github.io"
+  description: "Generative AI scientist, applied mathematician, and educator building rigorous, human-centered data systems."
+  favicon: assets/mark.svg
+  open-graph:
+    title: "Shakil A. Rafi | Generative AI Scientist"
+    description: "Rigorous AI, privacy-aware data systems, and research that moves from model to impact."
+    image: assets/social-card.png
+    locale: en_US
+  twitter-card:
+    title: "Shakil A. Rafi | Generative AI Scientist"
+    description: "Rigorous AI, privacy-aware data systems, and research that moves from model to impact."
+    image: assets/social-card.png
+    card-style: summary_large_image
+  search: false
   navbar:
-    background: primary
-    search: true
-    collapse: true
+    pinned: true
+    title: false
+    logo: assets/mark.svg
+    logo-alt: "Shakil Rafi home"
     left:
       - href: index.qmd
-        text: "Home"
-      - href: experience.qmd
+        text: Home
       - href: projects.qmd
-      - about.qmd
-    tools:
+        text: Work
+      - href: experience.qmd
+        text: Experience
+      - href: teaching.qmd
+        text: Teaching
+      - href: about.qmd
+        text: About
+    right:
       - icon: github
-        href: https://www.github.com/2shakilrafi
+        href: https://github.com/2shakilrafi
+        aria-label: GitHub
       - icon: linkedin
         href: https://www.linkedin.com/in/shakilrafi
+        aria-label: LinkedIn
+      - text: "Let's talk"
+        href: mailto:sarafi@uark.edu
+  page-footer:
+    left: "© 2026 Shakil A. Rafi"
+    center: "Built for clarity, curiosity, and responsible AI."
+    right:
+      - icon: envelope
+        href: mailto:sarafi@uark.edu
+        aria-label: Email Shakil Rafi
+      - icon: github
+        href: https://github.com/2shakilrafi
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/shakilrafi
+        aria-label: LinkedIn
 
 format:
   html:
-    theme:
-      - spacelab
-      - brand
+    theme: cosmo
     css: styles.css
-    toc: true
+    include-after-body: assets/after-body.html
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    anchor-sections: false
+    fig-cap-location: bottom
+    lang: en
 
 editor: visual
-

@@ -1,3 +1,92 @@
 ---
-title: "About"
+title: ""
+pagetitle: "About"
+page-layout: full
+description: "About Shakil Rafi, Ph.D.—generative AI scientist, applied mathematician, open-source developer, and educator in Fayetteville, Arkansas."
+canonical-url: "https://2shakilrafi.github.io/about.html"
 ---
+
+```{=html}
+<div class="site-shell">
+  <header class="page-hero">
+    <div class="wrap" data-reveal>
+      <span class="eyebrow">About</span>
+      <h1 class="page-title">Curious by default. Rigorous on purpose.</h1>
+      <p class="page-intro">I’m an applied mathematician who found a home in data science because it rewards both abstraction and usefulness.</p>
+    </div>
+  </header>
+
+  <section class="section" aria-labelledby="bio-title">
+    <div class="wrap bio-grid">
+      <div class="bio-copy" data-reveal>
+        <span class="eyebrow">Hello, I’m Shakil</span>
+        <h2 class="section-heading" id="bio-title">I like the space between a hard idea and a clear explanation.</h2>
+        <p>My work sits across generative AI, machine learning, causal inference, computational biology, optimization, and education. The thread connecting them is translation: from messy data to defensible evidence, from mathematical structure to working software, and from expert language to shared understanding.</p>
+        <p>Today, I’m a Teaching Assistant Professor of Data Science at the University of Arkansas. I work with students and industry partners on modern modeling, privacy-aware data systems, RAG and agentic workflows, and the practical craft of deploying analysis responsibly.</p>
+        <p>Before that, I developed generative and interpretable methods for genomic data, worked on maternal-health analytics, and spent years teaching mathematics from precalculus through differential equations. I still believe the best data scientists are part mathematician, part engineer, part skeptic, and part storyteller.</p>
+        <p>Outside the work, I enjoy hiking, the outdoors, and maintaining a long-running status as an aspiring juggler.</p>
+      </div>
+
+      <aside class="bio-aside" data-reveal data-reveal-delay="1" aria-label="Profile details">
+        <h3>At a glance</h3>
+        <dl class="fact-list">
+          <div><dt>Based</dt><dd>Fayetteville, Arkansas</dd></div>
+          <div><dt>Role</dt><dd>Teaching Assistant Professor of Data Science</dd></div>
+          <div><dt>Focus</dt><dd>Generative AI, responsible analytics, computational science</dd></div>
+          <div><dt>Open source</dt><dd><a href="https://CRAN.R-project.org/package=nnR">nnR on CRAN</a></dd></div>
+          <div><dt>ORCID</dt><dd><a href="https://orcid.org/0000-0003-3791-9697">0000-0003-3791-9697</a></dd></div>
+          <div><dt>Contact</dt><dd><a href="mailto:sarafi@uark.edu">sarafi@uark.edu</a></dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-wash" aria-labelledby="principles-title">
+    <div class="wrap">
+      <span class="eyebrow">Principles</span>
+      <h2 class="section-heading" id="principles-title">What I bring to the table.</h2>
+      <div class="principle-grid" style="margin-top: 42px">
+        <div class="principle-card" data-reveal><span class="card-index">01</span><h3 class="card-title" style="margin-top: 2rem">Mathematical depth</h3><p class="card-copy">I care about assumptions, structure, and why a method works—not only whether a library returns an answer.</p></div>
+        <div class="principle-card" data-reveal data-reveal-delay="1"><span class="card-index">02</span><h3 class="card-title" style="margin-top: 2rem">Applied judgment</h3><p class="card-copy">The “best” model depends on privacy, cost, maintenance, explanation, and the actual decision it supports.</p></div>
+        <div class="principle-card" data-reveal data-reveal-delay="2"><span class="card-index">03</span><h3 class="card-title" style="margin-top: 2rem">Teaching clarity</h3><p class="card-copy">If an idea cannot be explained honestly, the implementation probably deserves another look.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="tools-title">
+    <div class="wrap">
+      <div class="split-heading">
+        <div data-reveal><span class="eyebrow">Technical range</span><h2 class="section-heading" id="tools-title">The tools change. The thinking travels.</h2></div>
+        <p class="section-lede" data-reveal data-reveal-delay="1">I choose technology to fit the system and the team. These are the tools I reach for most often.</p>
+      </div>
+      <div class="skill-cloud" data-reveal>
+        <span>Python</span><span>R</span><span>SQL</span><span>Rust</span><span>C/C++</span><span>Julia</span><span>MATLAB</span><span>PyTorch</span><span>TensorFlow</span><span>Keras</span><span>tidyverse</span><span>tidymodels</span><span>LangChain</span><span>LangSmith</span><span>Ollama</span><span>FAISS</span><span>MLflow</span><span>Docker</span><span>Nextflow</span><span>Shiny</span><span>Streamlit</span><span>Pyomo</span><span>CVXPY</span><span>PySAL</span><span>Git</span><span>Linux</span><span>HPC</span><span>Slurm</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-wash" aria-labelledby="speaking-title">
+    <div class="wrap">
+      <span class="eyebrow">Selected speaking</span>
+      <h2 class="section-heading" id="speaking-title">Ideas are better when they travel.</h2>
+      <div class="course-stack">
+        <div class="course-row" data-reveal><span class="course-code">ASM Microbe 2025</span><span class="course-name">Deep learning and pathways of pathogenicity in <em>E. cecorum</em></span><span class="course-focus">Los Angeles, California</span></div>
+        <div class="course-row" data-reveal><span class="course-code">SIAM UQ 2024</span><span class="course-name">Maximal parameter estimates for neural networks</span><span class="course-focus">Trieste, Italy</span></div>
+        <div class="course-row" data-reveal><span class="course-code">HDSI 2023</span><span class="course-name">Summer graduate school on machine learning</span><span class="course-focus">UC San Diego</span></div>
+        <div class="course-row" data-reveal><span class="course-code">SIAM MDS 2022</span><span class="course-name">Clustering rideshares during the pandemic</span><span class="course-focus">San Diego, California</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="wrap">
+      <div class="cta-panel" data-reveal>
+        <span class="eyebrow">Say hello</span>
+        <h2>Good questions are welcome here.</h2>
+        <p>Research, teaching, responsible AI, open source, or a problem that refuses to fit neatly in one box—I’m glad to talk.</p>
+        <div class="button-row"><a class="button button-primary" href="mailto:sarafi@uark.edu">Email me <span class="arrow" aria-hidden="true">→</span></a><a class="button button-secondary" href="https://www.linkedin.com/in/shakilrafi">LinkedIn</a><a class="button button-secondary" href="https://github.com/2shakilrafi">GitHub</a></div>
+      </div>
+    </div>
+  </section>
+</div>
+```

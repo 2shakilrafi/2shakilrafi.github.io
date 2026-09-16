@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07111f"/>
+      <stop offset="1" stop-color="#10233b"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#61d8ff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#61d8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="120" r="380" fill="url(#glow)"/>
+  <g stroke="#61d8ff" stroke-opacity=".35" fill="none">
+    <path d="M760 112 920 220 1062 127 1122 305 948 382 1080 522"/>
+    <path d="M730 390 865 285 948 382 842 520"/>
+  </g>
+  <g fill="#b7f36b">
+    <circle cx="760" cy="112" r="8"/><circle cx="920" cy="220" r="8"/><circle cx="1062" cy="127" r="8"/><circle cx="1122" cy="305" r="8"/><circle cx="948" cy="382" r="8"/><circle cx="1080" cy="522" r="8"/><circle cx="730" cy="390" r="8"/><circle cx="865" cy="285" r="8"/><circle cx="842" cy="520" r="8"/>
+  </g>
+  <text x="84" y="112" fill="#b7f36b" font-family="ui-monospace, monospace" font-size="24" letter-spacing="5">GENERATIVE AI · APPLIED MATHEMATICS</text>
+  <text x="80" y="260" fill="#f4f7fb" font-family="Georgia, serif" font-size="76">Shakil A. Rafi</text>
+  <text x="82" y="327" fill="#9fb1c5" font-family="Arial, sans-serif" font-size="34">Scientist · Builder · Educator</text>
+  <text x="82" y="488" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="28">Rigorous AI for real-world decisions.</text>
+  <rect x="82" y="535" width="260" height="5" rx="3" fill="#ff8e72"/>
+</svg>

@@ -1,2 +1,9 @@
+.DS_Store
+.quarto/
+.Rhistory
+.Rproj.user/
+*_cache/
+*_files/
+
 /.quarto/
 **/*.quarto_ipynb

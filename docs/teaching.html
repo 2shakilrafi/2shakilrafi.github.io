@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Teaching practice and course design by University of Arkansas data-science professor Shakil Rafi.">
 
-<title>teaching – Shakil A. Rafi, Ph.D.</title>
+<title>Teaching – Shakil A. Rafi, Ph.D.</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -20,42 +21,25 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */
   vertical-align: middle;
 }
 </style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./assets/mark.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9517985cf2faf6d25c5bb2fd59337c4a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-52d3edc4879e86859cfab57e7fc9f8d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -70,9 +54,24 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Shakil A. Rafi | Generative AI Scientist">
+<meta property="og:description" content="Rigorous AI, privacy-aware data systems, and research that moves from model to impact.">
+<meta property="og:image" content="https://2shakilrafi.github.io/assets/social-card.png">
+<meta property="og:site_name" content="Shakil A. Rafi, Ph.D.">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta name="twitter:title" content="Shakil A. Rafi | Generative AI Scientist">
+<meta name="twitter:description" content="Rigorous AI, privacy-aware data systems, and research that moves from model to impact.">
+<meta name="twitter:image" content="https://2shakilrafi.github.io/assets/social-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="630">
+<meta name="twitter:image-width" content="1200">
+<link rel="canonical" href="https://2shakilrafi.github.io/teaching.html">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,86 +81,153 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Shakil A. Rafi, Ph.D.</span>
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/mark.svg" alt="Shakil Rafi home" class="navbar-logo light-content">
+    <img src="./assets/mark.svg" alt="Shakil Rafi home" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./index.html">
 <span class="menu-text">Home</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./experience.html"> 
+    <a class="nav-link" href="./projects.html">
+<span class="menu-text">Work</span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./experience.html">
 <span class="menu-text">Experience</span></a>
-  </li>  
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
+    <a class="nav-link active" href="./teaching.html" aria-current="page">
+<span class="menu-text">Teaching</span></a>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="./about.html">
 <span class="menu-text">About</span></a>
-  </li>  
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/2shakilrafi"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i>
+<span class="menu-text"></span></a>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/shakilrafi"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i>
+<span class="menu-text"></span></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="mailto:sarafi@uark.edu">
+<span class="menu-text">Let’s talk</span></a>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://www.github.com/2shakilrafi" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.linkedin.com/in/shakilrafi" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">teaching</h1>
+<!-- main -->
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<div class="site-shell">
+  <header class="page-hero">
+    <div class="wrap" data-reveal="">
+      <span class="eyebrow">Teaching</span>
+      <h1 class="page-title">Teach the foundations. Then build the frontier.</h1>
+      <p class="page-intro">I help students become data scientists who can reason before they reach for a library, validate before they celebrate, and explain what their work means.</p>
+    </div>
+  </header>
+
+  <section class="section" aria-labelledby="teaching-practice-title">
+    <div class="wrap">
+      <div class="split-heading">
+        <div data-reveal=""><span class="eyebrow">Teaching practice</span><h2 class="section-heading" id="teaching-practice-title">Technical ambition with an ethical center.</h2></div>
+        <p class="section-lede" data-reveal="" data-reveal-delay="1">Students should leave a course able to build—but also able to ask whether a system should be built, how it can fail, and who carries the consequences.</p>
+      </div>
+
+      <div class="teaching-grid">
+        <div class="teaching-card" data-reveal=""><span class="card-index">01 / FIRST PRINCIPLES</span><h3 class="card-title" style="margin-top: 2rem">Reason before recipes</h3><p class="card-copy">Models become durable knowledge when students understand assumptions, geometry, uncertainty, and tradeoffs—not just function calls.</p></div>
+        <div class="teaching-card" data-reveal="" data-reveal-delay="1"><span class="card-index">02 / PRACTICE</span><h3 class="card-title" style="margin-top: 2rem">Build the whole path</h3><p class="card-copy">Git, environments, cleaning, modeling, testing, deployment, monitoring, and communication belong in the same learning journey.</p></div>
+        <div class="teaching-card" data-reveal="" data-reveal-delay="2"><span class="card-index">03 / RESPONSIBILITY</span><h3 class="card-title" style="margin-top: 2rem">Make failure visible</h3><p class="card-copy">Students examine privacy, leakage, bias, hallucination, and evaluation gaps as engineering realities—not footnotes.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-wash" aria-labelledby="courses-title">
+    <div class="wrap">
+      <span class="eyebrow">Course portfolio</span>
+      <h2 class="section-heading" id="courses-title">From p-values to production-minded AI.</h2>
+      <div class="course-stack">
+        <div class="course-row" data-reveal=""><span class="course-code">Current focus</span><span class="course-name">Generative &amp; Agentic AI</span><span class="course-focus">RAG, local LLMs, orchestration, tracing, evaluation, and responsible use</span></div>
+        <div class="course-row" data-reveal=""><span class="course-code">Modernized</span><span class="course-name">Statistical Learning</span><span class="course-focus">tidymodels, cleaning, validation, Docker, MLflow, and deployment</span></div>
+        <div class="course-row" data-reveal=""><span class="course-code">Foundations</span><span class="course-name">Data Science &amp; Python</span><span class="course-focus">Programming, statistics, Git, Bash, reproducibility, and ethical practice</span></div>
+        <div class="course-row" data-reveal=""><span class="course-code">Advanced</span><span class="course-name">Optimization Methods</span><span class="course-focus">Routing, max-flow, location models, CVXPY, Pyomo, PySAL, and Gurobi</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="classroom-title">
+    <div class="wrap approach-grid">
+      <div data-reveal="">
+        <span class="eyebrow">The classroom</span>
+        <h2 class="section-heading" id="classroom-title">Where confidence becomes competence.</h2>
+        <p class="section-lede">I meet learners where they are, then make the next step visible. The standard stays high; the path becomes clearer.</p>
+      </div>
+      <div class="approach-list" data-reveal="" data-reveal-delay="1">
+        <div class="approach-item"><span class="approach-number">100+</span><div><h3>First-year data-science students</h3><p>Taught Python, R, Git, Bash, statistics, and reproducible analytical habits.</p></div></div>
+        <div class="approach-item"><span class="approach-number">30+</span><div><h3>Advanced optimization students</h3><p>Mentored applied work across routing, network flow, and facility-location problems.</p></div></div>
+        <div class="approach-item"><span class="approach-number">2025</span><div><h3>Course design recognition</h3><p>Inaugural recipient of the University of Arkansas Global Campus Award for Excellence in Course Design.</p></div></div>
+        <div class="approach-item"><span class="approach-number">K–12</span><div><h3>STEM pipeline teaching</h3><p>Contribute to early-access data science, Python, and AI instruction through University of Arkansas programs.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-label="Teaching principle">
+    <div class="wrap">
+      <div class="quote-panel" data-reveal="">
+        <blockquote class="blockquote">“Students do not need AI to make thinking optional. They need it to make better thinking possible.”</blockquote>
+        <cite>Teaching principle · Shakil A. Rafi</cite>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="wrap">
+      <div class="cta-panel" data-reveal="">
+        <span class="eyebrow">Students + collaborators</span>
+        <h2>Learning is a team sport.</h2>
+        <p>Interested in a guest lecture, applied project, curriculum collaboration, or industry partnership?</p>
+        <div class="button-row"><a class="button button-primary" href="mailto:sarafi@uark.edu">Let’s talk <span class="arrow" aria-hidden="true">→</span></a><a class="button button-secondary" href="https://stemprep.uark.edu/courses.php">Explore UARK STEM Prep</a></div>
+      </div>
+    </div>
+  </section>
 </div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-
-
-
 </main> <!-- /main -->
+<script src="assets/site.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
+        if (clz.startsWith('code-annotation-')) {
           return true;
         }
       }
@@ -181,11 +247,11 @@ ul.task-list li input[type="checkbox"] {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
         button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
+        tooltip = new bootstrap.Tooltip(button,
+          { trigger: "manual",
             customClass: "code-copy-button-tooltip",
             offset: [0, -8]});
-        tooltip.show();    
+        tooltip.show();
       }
       setTimeout(function() {
         if (tooltip) {
@@ -223,7 +289,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/2shakilrafi\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -237,6 +303,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -262,7 +333,7 @@ ul.task-list li input[type="checkbox"] {
       if (onUntriggerFn) {
         config.onUntrigger = onUntriggerFn;
       }
-      window.tippy(el, config); 
+      window.tippy(el, config);
     }
     const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
     for (var i=0; i<noterefs.length; i++) {
@@ -337,7 +408,7 @@ ul.task-list li input[type="checkbox"] {
       tippyHover(xref, undefined, function(instance) {
         instance.disable();
         let url = xref.getAttribute('href');
-        let hash = undefined; 
+        let hash = undefined;
         if (url.startsWith('#')) {
           hash = url;
         } else {
@@ -365,7 +436,7 @@ ul.task-list li input[type="checkbox"] {
               if (note !== null) {
                 const html = processXRef(id, note);
                 instance.setContent(html);
-              } 
+              }
             }).finally(() => {
               instance.enable();
               instance.show();
@@ -389,7 +460,7 @@ ul.task-list li input[type="checkbox"] {
               }
               const html = processXRef(null, note);
               instance.setContent(html);
-            } 
+            }
           }).finally(() => {
             instance.enable();
             instance.show();
@@ -429,7 +500,7 @@ ul.task-list li input[type="checkbox"] {
               height = bottom - top;
             }
             if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
+              // cook up a div (if necessary) and position it
               let div = window.document.getElementById("code-annotation-line-highlight");
               if (div === null) {
                 div = window.document.createElement("div");
@@ -551,8 +622,41 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 Shakil A. Rafi</p>
+</div>
+    <div class="nav-footer-center">
+<p>Built for clarity, curiosity, and responsible AI.</p>
+</div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:sarafi@uark.edu">
+      <i class="bi bi-envelope" role="img" aria-label="Email Shakil Rafi">
+</i>
+    </a>
+  </li>
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/2shakilrafi">
+      <i class="bi bi-github" role="img" aria-label="GitHub">
+</i>
+    </a>
+  </li>
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/shakilrafi">
+      <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i>
+    </a>
+  </li>
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
