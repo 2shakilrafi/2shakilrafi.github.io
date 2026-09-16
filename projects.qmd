@@ -54,9 +54,27 @@ canonical-url: "https://2shakilrafi.github.io/projects.html"
         </div>
       </article>
 
+      <article class="case-study" id="neuro-omics-ai" data-reveal>
+        <div class="case-meta">
+          <span class="case-number">03 / NEURO-OMICS &amp; AI</span>
+          <div class="case-tags"><span class="tag">Multi-omics</span><span class="tag">Explainable AI</span><span class="tag">Graph neural networks</span><span class="tag">Foundation models</span></div>
+        </div>
+        <div class="case-body">
+          <h2>Connecting neuronal gene expression, multi-omics, and AI</h2>
+          <p class="case-deck">Co-authored a 2026 review tracing computational neuro-omics from co-expression analysis to causal graph neural networks and cross-scale foundation models.</p>
+          <p>Published in <em>Brain Informatics</em>, the review examines Alzheimer’s disease, schizophrenia, and epilepsy, identifying data harmonization, spatial alignment, and causal interpretability as core barriers to translating multi-omic AI into reliable biological insight.</p>
+          <div class="case-facts">
+            <div class="case-fact"><strong>2026 review</strong><span><em>Brain Informatics</em> 13(1):36</span></div>
+            <div class="case-fact"><strong>Cross-scale synthesis</strong><span>Gene regulation, spatial transcriptomics, and neuroimaging</span></div>
+            <div class="case-fact"><strong>Translation challenges</strong><span>Harmonization, alignment, and causal interpretation</span></div>
+          </div>
+          <a class="inline-link" href="https://pubmed.ncbi.nlm.nih.gov/42479092/">Read the review on PubMed →</a>
+        </div>
+      </article>
+
       <article class="case-study" id="open-source" data-reveal>
         <div class="case-meta">
-          <span class="case-number">03 / OPEN SOURCE</span>
+          <span class="case-number">04 / OPEN SOURCE</span>
           <div class="case-tags"><span class="tag">R</span><span class="tag">CRAN</span><span class="tag">Neural networks</span><span class="tag">Testing</span></div>
         </div>
         <div class="case-body">
@@ -76,7 +94,7 @@ canonical-url: "https://2shakilrafi.github.io/projects.html"
 
       <article class="case-study" data-reveal>
         <div class="case-meta">
-          <span class="case-number">04 / SYSTEMS</span>
+          <span class="case-number">05 / SYSTEMS</span>
           <div class="case-tags"><span class="tag">Rust</span><span class="tag">Bioinformatics</span><span class="tag">Quality control</span></div>
         </div>
         <div class="case-body">
@@ -89,7 +107,7 @@ canonical-url: "https://2shakilrafi.github.io/projects.html"
 
       <article class="case-study" data-reveal>
         <div class="case-meta">
-          <span class="case-number">05 / HEALTH ANALYTICS</span>
+          <span class="case-number">06 / HEALTH ANALYTICS</span>
           <div class="case-tags"><span class="tag">Causal inference</span><span class="tag">Time series</span><span class="tag">Shiny</span></div>
         </div>
         <div class="case-body">
@@ -101,7 +119,7 @@ canonical-url: "https://2shakilrafi.github.io/projects.html"
 
       <article class="case-study" data-reveal>
         <div class="case-meta">
-          <span class="case-number">06 / MEASUREMENT</span>
+          <span class="case-number">07 / MEASUREMENT</span>
           <div class="case-tags"><span class="tag">Survey methods</span><span class="tag">Psychometrics</span><span class="tag">Product research</span></div>
         </div>
         <div class="case-body">

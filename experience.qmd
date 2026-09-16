@@ -48,7 +48,9 @@ canonical-url: "https://2shakilrafi.github.io/experience.html"
               <li>Designed analytical pipelines for tissue-damage recovery patterns in high-dimensional biological data.</li>
               <li>Built reproducible workflows with Nextflow, Bactopia, Docker, and IslandViewer.</li>
             </ul>
-            <a class="inline-link" href="https://doi.org/10.3389/fmicb.2026.1882753">Published research →</a>
+            <a class="inline-link" href="https://doi.org/10.3389/fmicb.2026.1882753">Genomic classification paper →</a>
+            <br>
+            <a class="inline-link" href="https://pubmed.ncbi.nlm.nih.gov/42479092/">Neuro-omics review →</a>
           </div>
         </article>
 
