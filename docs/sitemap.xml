@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://2shakilrafi.github.io/about.html</loc>
-    <lastmod>2026-09-16T19:45:51.026Z</lastmod>
-  </url>
-  <url>
-    <loc>https://2shakilrafi.github.io/index.html</loc>
-    <lastmod>2026-09-16T17:44:35.156Z</lastmod>
-  </url>
-  <url>
-    <loc>https://2shakilrafi.github.io/teaching.html</loc>
-    <lastmod>2026-09-16T17:44:58.968Z</lastmod>
+    <loc>https://2shakilrafi.github.io/cv.html</loc>
+    <lastmod>2026-11-15T03:07:33.183Z</lastmod>
   </url>
   <url>
     <loc>https://2shakilrafi.github.io/projects.html</loc>
-    <lastmod>2026-09-16T19:54:56.480Z</lastmod>
+    <lastmod>2026-11-15T03:07:24.206Z</lastmod>
   </url>
   <url>
-    <loc>https://2shakilrafi.github.io/experience.html</loc>
-    <lastmod>2026-09-16T19:54:56.597Z</lastmod>
+    <loc>https://2shakilrafi.github.io/teaching.html</loc>
+    <lastmod>2026-11-15T03:07:33.184Z</lastmod>
+  </url>
+  <url>
+    <loc>https://2shakilrafi.github.io/index.html</loc>
+    <lastmod>2026-11-15T03:07:24.167Z</lastmod>
   </url>
 </urlset>

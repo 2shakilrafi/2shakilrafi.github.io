@@ -4,75 +4,50 @@ project:
   resources:
     - assets/**
     - robots.txt
-    - styles.css
-
-title-block-style: none
 
 website:
-  title: "Shakil A. Rafi, Ph.D."
+  title: "Shakil A. Rafi"
   site-url: "https://2shakilrafi.github.io"
-  description: "Generative AI scientist, applied mathematician, and educator building rigorous, human-centered data systems."
+  description: "Shakil A. Rafi, Ph.D. Teaching Assistant Professor of Data Science at the University of Arkansas. Applied math, machine learning, and generative AI."
   favicon: assets/mark.svg
   open-graph:
-    title: "Shakil A. Rafi | Generative AI Scientist"
-    description: "Rigorous AI, privacy-aware data systems, and research that moves from model to impact."
     image: assets/social-card.png
     locale: en_US
   twitter-card:
-    title: "Shakil A. Rafi | Generative AI Scientist"
-    description: "Rigorous AI, privacy-aware data systems, and research that moves from model to impact."
     image: assets/social-card.png
-    card-style: summary_large_image
   search: false
   navbar:
-    pinned: true
-    title: false
-    logo: assets/mark.svg
-    logo-alt: "Shakil Rafi home"
+    title: "Shakil A. Rafi"
     left:
-      - href: index.qmd
-        text: Home
+      - href: cv.qmd
+        text: CV
       - href: projects.qmd
-        text: Work
-      - href: experience.qmd
-        text: Experience
+        text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: about.qmd
-        text: About
-    right:
-      - icon: github
-        href: https://github.com/2shakilrafi
-        aria-label: GitHub
-      - icon: linkedin
-        href: https://www.linkedin.com/in/shakilrafi
-        aria-label: LinkedIn
-      - text: "Let's talk"
-        href: mailto:sarafi@uark.edu
-  page-footer:
-    left: "© 2026 Shakil A. Rafi"
-    center: "Built for clarity, curiosity, and responsible AI."
     right:
       - icon: envelope
         href: mailto:sarafi@uark.edu
-        aria-label: Email Shakil Rafi
+        aria-label: Email
       - icon: github
         href: https://github.com/2shakilrafi
         aria-label: GitHub
       - icon: linkedin
         href: https://www.linkedin.com/in/shakilrafi
         aria-label: LinkedIn
+  page-footer:
+    left: "© 2026 Shakil A. Rafi"
+    right: "Built with [Quarto](https://quarto.org)"
 
 format:
   html:
-    theme: cosmo
-    include-in-header: assets/head.html
-    include-after-body: assets/after-body.html
+    theme:
+      - cosmo
+      - theme.scss
     toc: false
+    anchor-sections: false
     smooth-scroll: true
     link-external-newwindow: true
-    anchor-sections: false
-    fig-cap-location: bottom
     lang: en
 
 editor: visual

@@ -1,0 +1,201 @@
+---
+title: "Curriculum Vitae"
+pagetitle: "CV"
+description: "CV of Shakil A. Rafi, Ph.D.: experience, education, publications, talks, and awards."
+aliases:
+  - experience.html
+---
+
+::: lead
+Applied mathematician turned data scientist. I build machine learning and LLM systems for scientific and business problems, and I teach other people to build them carefully.
+:::
+
+## Experience
+
+::: cv-entry
+::: cv-head
+### Teaching Assistant Professor of Data Science
+[Jul 2025 – Present]{.cv-date}
+:::
+::: cv-org
+Department of Data Science, University of Arkansas · Fayetteville, AR
+:::
+- Lead industry partnerships with Arvest Bank, Walmart, J.B. Hunt, Tyson, and Mastercard. These turn into guest lectures, datasets, and practicum projects, and help students land internships and jobs.
+- Designed and teach courses on generative and agentic AI. Students build RAG systems, orchestration pipelines, and agentic workflows, and learn local LLM deployment with Ollama, pipelines with LangChain, and monitoring with LangSmith.
+- Rebuilt our Statistical Learning course around modern modeling with tidymodels, data cleaning, and deployment with Docker and MLflow.
+- Teach about 80 incoming freshmen the data science process, its tools, and its ethics.
+:::
+
+::: cv-entry
+::: cv-head
+### Postdoctoral Fellow, Data Science and Computational Biology
+[Aug 2024 – Jun 2025]{.cv-date}
+:::
+::: cv-org
+University of Arkansas System Division of Agriculture · Little Rock, AR
+:::
+- Developed generative models, including variational autoencoders and self-attentive transformers, for genomic health data.
+- Worked with Cobb Genetics on an interpretable classification workflow for *Enterococcus cecorum* lineages, with careful safeguards against data leakage. Published in *Frontiers in Microbiology* (2026).
+- Designed pipelines to model tissue-damage recovery patterns in high-dimensional biological data.
+- Built reproducible workflows with Nextflow, Bactopia, Docker, and IslandViewer.
+:::
+
+::: cv-entry
+::: cv-head
+### Lecturer in Data Science
+[Jan 2023 – May 2024]{.cv-date}
+:::
+::: cv-org
+Sam M. Walton College of Business, University of Arkansas · Fayetteville, AR
+:::
+- Taught Python, R, Git, Bash, and optimization methods to 100+ students.
+- Mentored advanced projects in routing, network flow, and facility location using CVXPY, Pyomo, PySAL, and Gurobi.
+:::
+
+::: cv-entry
+::: cv-head
+### Health Data Science Intern
+[May 2023 – Aug 2023]{.cv-date}
+:::
+::: cv-org
+Arkansas Blue Cross and Blue Shield · Springdale, AR
+:::
+- Used difference-in-differences and Granger causality to estimate how insurance policy affected maternal-health outcomes in observational claims data.
+- Built regression and Markov models combining claims with built-environment, social determinants of health, socioeconomic, Census, and LexisNexis data for maternal risk assessment and pregnancy-stage prediction.
+- Built an LSTM forecasting model for claims volume in TensorFlow and tidyverts that improved forecast accuracy by 25%.
+- Made R Shiny dashboards so stakeholders could actually use the results.
+:::
+
+::: cv-entry
+::: cv-head
+### Senior Graduate Assistant
+[Jan 2020 – Dec 2022]{.cv-date}
+:::
+::: cv-org
+Department of Mathematical Sciences, University of Arkansas · Fayetteville, AR
+:::
+- Taught precalculus, calculus, linear algebra, differential equations, and introductory statistics.
+:::
+
+::: cv-entry
+::: cv-head
+### Co-Founder
+[2014 – 2017]{.cv-date}
+:::
+::: cv-org
+Grey Synergy Ltd. · Dhaka, Bangladesh
+:::
+- Started a web development company with two partners, building custom websites for client businesses.
+- Handled clients end to end, from scoping and design through development, revisions, and post-launch support.
+:::
+
+## Education
+
+::: cv-entry
+::: cv-head
+### Ph.D. in Applied Mathematics
+[2020 – 2024]{.cv-date}
+:::
+::: cv-org
+University of Arkansas · Fayetteville, AR
+:::
+Focus in deep learning. Dissertation: *Analysis and Construction of Artificial Neural Networks for the Heat Equations, and Their Associated Parameters, Depths, and Accuracies.* [ScholarWorks](https://scholarworks.uark.edu/mascetd/)
+:::
+
+::: cv-entry
+::: cv-head
+### M.S. in Pure Mathematics
+[2016 – 2019]{.cv-date}
+:::
+::: cv-org
+University of Arkansas · Fayetteville, AR
+:::
+Thesis: *Topology and Computation.*
+:::
+
+## Publications and preprints
+
+::: pubs
+1. Lagad, R. R., **Rafi, S.**, & Goswami, A. (2026). Genomic-island cassette architecture provides interpretable signal for exploratory classification of poultry-associated *Enterococcus cecorum* lineages. *Frontiers in Microbiology*, 17, 1882753. [doi:10.3389/fmicb.2026.1882753](https://doi.org/10.3389/fmicb.2026.1882753)
+2. Goswami, A., Lagad, R. R., & **Rafi, S.** (2026). Decoding neuronal gene expression: Integrative insights from omics and AI. *Brain Informatics*, 13, 36. [doi:10.1186/s40708-026-00323-z](https://doi.org/10.1186/s40708-026-00323-z)
+3. **Rafi, S.**, Padgett, J. L., & Nakarmi, U. (2024). Towards an algebraic framework for approximating functions using neural network polynomials. *arXiv preprint*. [doi:10.48550/arXiv.2402.01058](https://doi.org/10.48550/arXiv.2402.01058)
+4. **Rafi, S.**, & Nithila, A. N. (2022). Who rides Uber anyway? A census-tract level analysis and clustering of ride-shares for the City of Chicago during the era of the pandemic. *TechRxiv preprint*. [doi:10.36227/techrxiv.21076042.v2](https://doi.org/10.36227/techrxiv.21076042.v2)
+:::
+
+## Talks and workshops
+
+- *The Use of Deep Learning to Discover Pathways of Pathogenicity in Enterococcus cecorum.* ASM Microbe 2025, Los Angeles, CA.
+- *Maximal Parameter Estimates for Neural Networks and Uncertainties in Approximation.* SIAM Conference on Uncertainty Quantification, Trieste, Italy, March 2024.
+- Halıcıoğlu Data Science Institute Summer Graduate School on Machine Learning, UC San Diego with the Simons Laufer Mathematical Sciences Institute, June 2023.
+- *Who Rides Uber Anyway? A Clustering Approach to Rideshares in Chicago During the Era of the Pandemic.* SIAM Conference on Mathematics of Data Science, San Diego, CA, 2022.
+- *SOM-where in Chicago: Self-Organizing Maps as a Way to Analyze Transportation Data.* OAK Fall Meeting, Little Rock, AR, October 2022.
+- *Who and Where Did Loans Go to During the Pandemic?* Arkansas Summer Research Institute, Little Rock, AR, September 2022.
+- *Data Science in Today's World.* Invited panelist, Arkansas Summer Research Institute.
+
+## Awards and service
+
+::: facts
+[2025]{.label}
+
+[Inaugural Award for Excellence in Course Design, University of Arkansas Global Campus]{}
+
+[2024]{.label}
+
+[SIAM Student Travel Award]{}
+
+[2022]{.label}
+
+[Secretary, Graduate Student Colloquium; Treasurer, SIAM Student Chapter]{}
+
+[2021]{.label}
+
+[Lawrence Jesser Toll, Jr. Endowed Scholarship]{}
+
+[2019]{.label}
+
+[Vice President, Bangladesh Student Society]{}
+
+[2017]{.label}
+
+[Bangladesh–Sweden Travel Award]{}
+
+[2015]{.label}
+
+[Pi Mu Epsilon, Alabama Eta Chapter]{}
+
+[2011]{.label}
+
+[Millennium Scholar's Award]{}
+:::
+
+## Skills
+
+::: facts
+[Languages]{.label}
+
+[Python and R (10+ years), MATLAB, C/C++, SQL (5+ years), Julia, Rust]{}
+
+[ML and GenAI]{.label}
+
+[PyTorch, TensorFlow, Keras, scikit-learn, transformers, VAEs, diffusion models, BERT, LoRA, LangChain, LangSmith, Ollama, FAISS, RAG]{}
+
+[Statistics]{.label}
+
+[tidyverse, tidymodels, glm/glmnet, causal inference, survey methods, psychometrics]{}
+
+[Optimization]{.label}
+
+[CVXPY, Pyomo, PySAL, Gurobi]{}
+
+[MLOps and systems]{.label}
+
+[Docker, MLflow, Airflow, Nextflow, Git, Linux, HPC, Slurm]{}
+
+[Bioinformatics]{.label}
+
+[Bactopia, Prokka, Roary, IslandViewer, QIIME2, FastQC, BLAST, MEGAHIT, SAMtools]{}
+
+[Certifications]{.label}
+
+[NVIDIA DLI Fundamentals of Deep Learning, IBM Machine Learning Associate, Databricks Fundamentals, Certified Wolfram Technology Associate]{}
+:::
