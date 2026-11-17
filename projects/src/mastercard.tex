@@ -1,0 +1,60 @@
+\input{preamble}
+\begin{document}
+\titleblock{Differentially Private Synthetic Store Sales}{Gaussian mixtures with a measured privacy budget}{Project write-up, updated November 2026}
+\textit{An exploratory University of Arkansas--Mastercard project. Source: \href{https://github.com/2shakilrafi/mastercard-project}{github.com/2shakilrafi/mastercard-project}.}
+
+\plainwords{Given only how much each store's weekly sales changed, I fit a model to those changes and generate new, similar sales histories. The first version said it protected the data and did not. This version adds calibrated random noise to every number learned from the data, keeps a ledger of the privacy spent, and measures what the protection costs in accuracy.}
+
+\section{Introduction}
+The goal is realistic store-level sales series for classroom projects when the inputs are summaries, not transaction records. I worked with five stores. For each, the input is the week-over-week change in sales and the store's yearly mean. These inputs are first-pass summarized or synthetic data, not original transactions.
+
+The first version of the project fit Gaussian mixtures with BIC chosen on the raw data, started each synthetic path from a value sampled from the true series, and published the reconstructed sales next to the synthetic ones. That is not privacy preserving, so I rebuilt it.
+
+\section{Method}
+\textbf{Guarantee.} Each store's release is $(\varepsilon,\delta)$-differentially private with $\varepsilon=8$ and $\delta=10^{-5}$, where the unit of protection is one row of the weekly-change table.
+
+\textbf{Mechanism.} Weekly changes are clipped to a public bound and scaled to $[-1,1]$. I fit the mixture with expectation--maximization, but in each iteration I add Gaussian noise to the sufficient statistics (per-component counts, first moments, and second moments). One record contributes a vector of $L_2$ norm at most $\sqrt{3}$, which the tests check numerically, so the noise standard deviation is $\sqrt{3}/\sqrt{2\rho_t}$ for a per-iteration budget $\rho_t$. Budgets add up under zero-concentrated DP and convert to $(\varepsilon,\delta)$ with $\varepsilon=\rho+2\sqrt{\rho\ln(1/\delta)}$. The yearly mean level is released separately with its own noise, using 10\% of the budget.
+
+\textbf{What is fixed in advance.} The number of components, the clipping bound, the starting parameters, and the iteration count are public choices, not learned from the data. Synthetic series are generated from the released parameters only, so any number of them costs nothing extra.
+
+\section{Results}
+Accuracy is the Wasserstein-1 distance between the fitted model and the real weekly changes, in units of the real standard deviation (smaller is better), averaged over 200 private fits per store and five stores. The table shows a single Gaussian with clipping at $\pm\$500{,}000$.
+
+\begin{center}
+\small
+\begin{tabular}{@{}rrrr@{}}
+\toprule
+$\varepsilon$ & Distance & Mean error & Spread ratio\\
+\midrule
+0.5 & 1.04 & 0.79 & 0.64\\
+1 & 0.59 & 0.38 & 0.77\\
+2 & 0.36 & 0.20 & 0.89\\
+4 & 0.23 & 0.10 & 0.95\\
+8 & 0.17 & 0.05 & 0.95\\
+non-private & 0.13 & 0.01 & 0.95\\
+uninformed guess & 0.28 & 0.02 & 0.81\\
+\bottomrule
+\end{tabular}
+\end{center}
+Spread ratio is the fitted standard deviation over the real one; 1 is ideal. The uninformed guess is a fixed Gaussian that uses no data.
+
+With about 51 weekly changes per store, noise at $\varepsilon\le 2$ swamps the signal. The private fit is only marginally better than the uninformed guess at $\varepsilon=4$ and clearly better at $\varepsilon=8$. A two-component mixture does worse at every budget (distance 0.30 at $\varepsilon=8$, against 0.17 for one component), so I fixed one component for the release. Clipping at $\pm\$500{,}000$ beat $\pm\$1{,}000{,}000$ because it needs less noise. The release uses $\varepsilon=8$, one release per store, with a ledger of what was spent.
+
+\section{Problems I found in the original analysis}
+\begin{itemize}
+\item \textbf{Wrong level for four stores.} Every store was shifted to Store 1's yearly mean. The new pipeline uses each store's own mean.
+\item \textbf{Sheets and summary rows disagree.} For Stores 3, 4, and 5, the reconstructed standard deviation matches the summary rows for Stores 6, 3, and 7, not their own. I used the labeled rows and flagged this; it needs checking against the source workbook.
+\item \textbf{Simulated years spread too widely.} Real weekly changes are negatively correlated (lag-1 autocorrelation $-0.17$ to $-0.32$), because sales revert toward their mean. Sampling changes independently builds a random walk, with a simulated year two to three times wider than the real one.
+\end{itemize}
+
+\section{Discussion and limits}
+\begin{itemize}
+\item \textbf{Row-level protection.} One underlying weekly sales value appears in several rows, so protecting a single sales figure is weaker than the stated $\varepsilon$. Protecting a whole store would take far more noise.
+\item \textbf{Choices made after looking.} I picked the clipping bound and one component after seeing the accuracy study, which used the private inputs. That is a small leak outside the stated budget. In production these should come from domain knowledge or a privately estimated bound.
+\item \textbf{The inputs must stay private.} The repository still contains the first-pass inputs and the old non-private outputs. A private release means nothing next to them, so with real data none could be published.
+\item \textbf{Where this should help.} Mixtures need many more records per component than 51. The code supports more components for datasets with thousands of rows, such as real transaction data.
+\end{itemize}
+The next steps are private selection of the bounds, a model of weekly dependence before sampling, store-level protection, and resolving the workbook provenance.
+
+\textbf{Contact.} sarafi@uark.edu
+\end{document}

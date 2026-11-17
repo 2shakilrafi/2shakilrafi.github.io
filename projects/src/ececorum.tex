@@ -1,0 +1,32 @@
+\input{preamble}
+\begin{document}
+\titleblock{Genomic-Island Cassette Architecture and \textit{Enterococcus cecorum}}{An interpretable signal for pathogenic lineages}{Research summary, November 2026}
+{\small\textit{Published: Lagad, Rafi \& Goswami (2026), \textit{Frontiers in Microbiology} 17:1882753, \href{https://doi.org/10.3389/fmicb.2026.1882753}{doi:10.3389/fmicb.2026.1882753}. Work done at the Goswami Lab with Cobb-Vantress Genetics. I am second author.}}
+
+\plainwords{\textit{E.\ cecorum} is a poultry bacterium. Some strains are harmless and others cause bone infections and lameness. Most genomic work asks which genes a strain has. We asked how the genes sit next to each other inside mobile regions called genomic islands, and whether that layout tells the two apart.}
+
+\section{Introduction}
+Surveillance of \textit{E.\ cecorum} often relies on culturing or on screening for particular genes. We looked at \emph{cassette architecture}: the order and neighbourhood of genes inside genomic islands. The question was whether this layout carries signal that is useful for classifying pathogenic versus commensal lineages, and whether that signal can be explained.
+
+\section{Method}
+The data are 145 poultry-associated genomes, 95 nonpathogenic and 50 pathogenic. I worked on the interpretable machine-learning and validation side of the project. From the genomes we engineered 84 genome-level summary features anchored on genomic-island cassette architecture, and trained random forests on them. Because genomes from the same study can resemble each other, I used leakage-aware validation: genome-grouped 5-fold cross-validation, plus a harder leave-one-BioProject-out check. Models were compared against two baselines, genomic-island burden and assembly quality, and explained with SHAP.
+
+\section{Results}
+\begin{center}
+\small
+\begin{tabular}{@{}p{7.2cm}p{4.6cm}@{}}
+\toprule
+\textbf{Evaluation} & \textbf{AUROC}\\
+\midrule
+Genome-grouped 5-fold cross-validation & $0.918 \pm 0.067$\\
+Leave-one-BioProject-out & $0.694$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The cassette-architecture model outperformed both the island-burden and assembly-quality baselines. SHAP pointed to discriminative genomic modules enriched for antimicrobial-resistance cargo and mobility functions.
+
+\section{Discussion}
+The within-study result is encouraging, and the modules the model leans on are biologically sensible. The leave-one-BioProject-out score is much lower, and I consider that the number to remember. It says the signal does not transfer cleanly to new sampling settings, so the method needs prospective validation before it is used for surveillance. That is why the paper's title says ``exploratory.'' I would rather report that gap than hide it.
+
+\textbf{Contact.} sarafi@uark.edu
+\end{document}

@@ -1,0 +1,26 @@
+\input{preamble}
+\begin{document}
+\titleblock{nnR: Neural Networks Made Algebraic}{An R package for building neural networks by operating on them}{Software write-up, November 2026}
+\textit{On CRAN (\href{https://cran.r-project.org/package=nnR}{cran.r-project.org/package=nnR}). Source: \href{https://github.com/2shakilrafi/nnR}{github.com/2shakilrafi/nnR}. License GPL-3. Co-authors: Joshua Lee Padgett and Ukash Nakarmi.}
+
+\plainwords{Usually you pick a network shape and train it. Here, I treat a network as an object you can add, stack, compose, and multiply, then build networks that approximate functions like $x^2$, $e^x$, and $\sin x$ directly, with no training at all.}
+
+\section{Introduction}
+A feed-forward network can be written as an ordered tuple of weight and bias pairs, $\nu=((W_1,b_1),\dots,(W_L,b_L))$. Writing networks this way lets us define operations on them: composition, stacking, sums, scalar multiples, and networks for squaring and for multiplying two numbers. The framework builds on work by Grohs, Jentzen and collaborators, and our paper, \textit{Towards an Algebraic Framework for Approximating Functions Using Neural Network Polynomials} (Rafi, Padgett \& Nakarmi, 2024, \href{https://doi.org/10.48550/arXiv.2402.01058}{arXiv:2402.01058}), extends it to powers, polynomials, exponentials, sines, cosines, and a one-dimensional trapezoidal rule.
+
+\section{Why a new package}
+Common deep-learning libraries assume you define layers and then learn the parameters by backpropagation. This framework works the other way around: the weights and biases are fixed by construction, and some networks (the power network, for example) are defined entirely by their accuracy parameters. That does not fit a fixed layer structure well, so the operations needed their own implementation.
+
+\section{What is implemented}
+\begin{itemize}
+\item Composition, stacking, sums, scalar multiplication, and instantiation of a network on an input.
+\item Squaring, products, and powers; neural-network exponentials, sines, and cosines.
+\item A one-dimensional trapezoidal rule, norms, maxima, and a maximum-convolution-type approximation for continuous functions of one variable.
+\end{itemize}
+Each function is tied to a definition in the paper, so the code can be read next to the mathematics. The package ships a vignette and a \texttt{testthat} test suite covering the operations.
+
+\section{Status and discussion}
+The package has been on CRAN since February 2024, and a newer release followed in September 2026. I describe it as a pedagogical proof of concept. It is not tuned for speed, and anyone needing performance should benchmark it first. The value I see is in making a piece of approximation theory executable and checkable, so students and researchers can test a construction against the definition on a real input instead of taking a proof on faith.
+
+\textbf{Contact.} sarafi@uark.edu
+\end{document}

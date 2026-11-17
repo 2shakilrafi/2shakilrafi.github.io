@@ -1,0 +1,26 @@
+\input{preamble}
+\begin{document}
+\titleblock{RustQC}{A fast, memory-bounded FASTQ quality-control tool in Rust}{Software write-up, November 2026}
+\textit{Source: \href{https://github.com/2shakilrafi/rustqc}{github.com/2shakilrafi/rustqc} (MIT). Status: v0.4.0; conda-forge publication in review.}
+
+\plainwords{Before anyone analyzes sequencing data, they check its quality, and FastQC is the standard tool for that. I rebuilt its analyses in Rust so the checks run in one pass with a fixed memory ceiling.}
+
+\section{Introduction}
+Quality control is the first step of most sequencing pipelines. RustQC targets FastQC 0.12.1: it implements the eleven active analysis modules and writes self-contained reports plus FastQC-compatible data files, so existing pipeline tooling can read its output. It is command-line first and does not reproduce FastQC's desktop interface.
+
+\section{Design}
+\begin{itemize}
+\item \textbf{One streaming pass} over each input, with only a small bounded number of record batches in flight.
+\item \textbf{Bounded state.} Fixed quality histograms replace per-base quality vectors, duplicate tracking stops at 100{,}000 unique sequence prefixes, and per-tile analysis follows FastQC's sampling rule. Memory therefore grows with the longest read, not the number of reads.
+\item \textbf{Parallelism.} A single file uses a parser, workers, and an ordered reduction; multiple files run concurrently without oversubscribing the machine.
+\item \textbf{Compatibility.} Default thresholds, position grouping, and GC interpolation follow FastQC; outputs include an interactive HTML report, a FastQC-layout zip, and structured JSON.
+\end{itemize}
+
+\section{Validation and results}
+Correctness is checked with a Rust test suite and formatting and lint gates (\texttt{cargo fmt}, \texttt{cargo test}, \texttt{cargo clippy} with warnings denied). My early in-memory benchmarks on FASTX input were more than $40\times$ faster than FastQC. I treat that as a first signal only: in-memory timings leave out compressed-file decompression, and I have not yet published an end-to-end comparison that includes gzip input, peak memory, and thread scaling. Writing that benchmark, with a head-to-head output comparison against FastQC on shared data, is the next step.
+
+\section{Discussion}
+The aim was parity with FastQC's results, not a new method, so the engineering question is whether the outputs agree and the speed holds up on realistic files. For distribution, the package is installable with Cargo today. I have submitted a conda-forge recipe under the name \texttt{rustqc-fastq}, because an unrelated project already uses \texttt{rustqc} on Bioconda. That review is still open.
+
+\textbf{Contact.} sarafi@uark.edu
+\end{document}

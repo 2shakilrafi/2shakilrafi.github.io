@@ -1,0 +1,49 @@
+\input{preamble}
+\begin{document}
+\titleblock{Semantic Interrogation Encoding}{How many questions does a document need?}{Research write-up, November 2026}
+\textit{In collaboration with Johns Hopkins University. Status: active research. Code is private and available to reviewers on request.}
+
+\plainwords{Instead of turning a text into a block of anonymous numbers, I ask a language model a list of questions about it and keep its answers. Every number then has a meaning I can read. What I am testing is how short that list can get before it stops being useful.}
+
+\section{Introduction}
+A dense embedding is compact and works well, but its coordinates carry no declared meaning. For a text $x$, a question bank $Q$, and a probabilistic decision model $M$, the \emph{Semantic Interrogation Encoding} (SIE) is the concatenation of the decision distributions $M(x,q_i)$. Each coordinate is the model's answer to a named question.
+
+The claim is deliberately modest: a compact, interpretable question bottleneck may preserve useful predictive information. I am not claiming that question answering beats a dense embedding. Prior work overlaps substantially with the embedding idea, so what I am after is careful measurement of the accuracy and cost trade-off, not novelty of the concept.
+
+\section{Method}
+\textbf{Decision model.} Questions are answered by Laya (\texttt{laya-mlx} 0.3.0), run offline. Questions are typed (binary, categorical, ordinal); binary questions contribute one probability, the others keep their full distributions.
+
+\textbf{Question banks.} I use two. The first is a deterministic 128-question template bank across 32 semantic families, oriented toward sentiment. The second is learned from unlabeled text: I sample FineWeb-Edu, embed it with a pinned MiniLM revision, cluster it into 192 candidates, keep the 128 best-supported clusters, and write one topic question per cluster from cluster-distinctive terms. No downstream labels are used to build either bank.
+
+\textbf{Classifier and controls.} One small logistic regression is used identically for every representation. I report nested curves at 8, 16, 32, 64, and 128 questions, and compare against five random question subsets, a deliberately meaningless question bank, a signed-hashing baseline, MiniLM, and label-free random projections of matching dimension. Intervals are 95\% paired bootstraps, and I report question count, feature dimension, tokens, and latency.
+
+\textbf{Rules I hold myself to.} Freeze the split before encoding; build questions without evaluation labels; reject input truncation rather than hide it (Laya has a 512-token limit); fit selection and classifiers on training data only.
+
+\section{Results}
+\begin{center}
+\small
+\begin{tabular}{@{}p{3.3cm}p{6.4cm}p{2.6cm}@{}}
+\toprule
+\textbf{Experiment} & \textbf{Result} & \textbf{Status}\\
+\midrule
+SST-2 & 91.4\% accuracy at 32 questions & Pushed\\
+Rotten Tomatoes & 88.8\% at 64 questions, same frozen bank & Pushed\\
+Sentiment cascade (SST-2) & $\approx$89\% at $\approx$12.7 questions on average; about $3\times$ faster than fixed-32 & Preliminary\\
+Yelp transfer (frozen) & 94.5\% hierarchy accuracy; a fixed 8-question encoding scored 95.3\% & Preliminary\\
+DynaSent Round 2 (binary) & $\approx$78.5--79\%; confident errors; no neutral class evaluated & Preliminary\\
+\bottomrule
+\end{tabular}
+\end{center}
+The first two numbers are the best results among the question counts I evaluated, so they are descriptive, not independently confirmed model selections. The cascade, Yelp, and DynaSent results are single runs from my working notes and have not been through the same review.
+
+\section{Discussion}
+Reaching 91.4\% on SST-2 with 32 questions shows that a compact, readable code can carry sentiment well. It does not show more than that. The bank is sentiment-oriented, the texts are short, and the two pilots do not demonstrate transfer between task types.
+
+The cascade suggests that most documents need far fewer than 32 questions. The Yelp result is a useful caution, though: the plain fixed 8-question encoding matched or beat the cascade, which tells me confidence alone is not a validated stopping rule. The MiniLM baseline was weaker than I expected and needs validating before I make any comparison claim, and MiniLM is still much faster. Laya jointly encodes each text and question, so the document representation is not reusable across arbitrary questions. Any systems-cost argument has to face that directly.
+
+\textbf{What would weaken the idea.} SIE needing comparable effective dimension while staying materially worse; optimized banks failing to beat random ones; transfer collapsing across tasks; reconstruction retaining little beyond labels; repeated interrogation losing the cost comparison; or unstable, poorly calibrated probabilities. I am keeping the negative results.
+
+\textbf{Next.} Two branches. One tests whether a corpus-learned bank transfers across tasks. The other tests whether early stopping preserves sentiment accuracy at a measured latency. Reconstruction, a VAE, and adaptive policies remain future work.
+
+\textbf{Contact.} sarafi@uark.edu
+\end{document}
