@@ -14,19 +14,19 @@ Most of what I work on sits somewhere between mathematics, machine learning, and
 
 *With Cobb Genetics and the Goswami Lab · Frontiers in Microbiology, 2026*
 
-*Enterococcus cecorum* causes disease in poultry, but plenty of strains are harmless. We asked whether the way genes are arranged around genomic islands could tell the two apart. I engineered 84 genome-level features across 145 genomes and trained random forests with genome-grouped cross-validation so the model couldn't cheat through near-duplicate samples. It reached an AUROC of 0.918 and beat the simpler baselines. When we held out whole sequencing projects, performance dropped to 0.694, which is an honest reminder that it needs prospective validation before anyone relies on it. [Read the paper](https://doi.org/10.3389/fmicb.2026.1882753) or the [short write-up](assets/projects/ececorum.pdf).
+*Enterococcus cecorum* causes disease in poultry, but plenty of strains are harmless. We asked whether the way genes are arranged around genomic islands could tell the two apart. I engineered 84 genome-level features across 145 genomes and trained random forests with genome-grouped cross-validation so the model couldn't cheat through near-duplicate samples. It reached an AUROC of 0.918 and beat the simpler baselines. When we held out whole sequencing projects, performance dropped to 0.694, which is an honest reminder that it needs prospective validation before anyone relies on it. **[Read the paper](https://doi.org/10.3389/fmicb.2026.1882753)** or the **[short write-up](assets/projects/ececorum.pdf)**.
 
 ### Omics and AI for neuronal gene expression
 
 *Brain Informatics, 2026*
 
-A review that follows computational neuro-omics from co-expression networks to graph neural networks and foundation models, with a focus on Alzheimer's disease, schizophrenia, and epilepsy. The hard problems turn out to be less about models and more about harmonizing data, aligning spatial measurements, and getting causal interpretations right. [Read the review](https://pubmed.ncbi.nlm.nih.gov/42479092/)
+A review that follows computational neuro-omics from co-expression networks to graph neural networks and foundation models, with a focus on Alzheimer's disease, schizophrenia, and epilepsy. The hard problems turn out to be less about models and more about harmonizing data, aligning spatial measurements, and getting causal interpretations right. **[Read the review](https://pubmed.ncbi.nlm.nih.gov/42479092/)**
 
 ### An algebra for neural networks
 
 *Ph.D. work · arXiv, 2024*
 
-My dissertation treated neural networks as algebraic objects you can add, compose, and scale, and used that to build networks that approximate solutions to the heat equation with explicit bounds on parameters, depth, and accuracy. [Read the preprint](https://arxiv.org/abs/2402.01058)
+My dissertation treated neural networks as algebraic objects you can add, compose, and scale, and used that to build networks that approximate solutions to the heat equation with explicit bounds on parameters, depth, and accuracy. **[Read the preprint](https://arxiv.org/abs/2402.01058)**
 
 ### How researchers talk about AI in education
 
@@ -38,7 +38,7 @@ I built an LLM-assisted pipeline that classifies 12,000+ education research abst
 
 *With researchers at Johns Hopkins University · ongoing, 2026*
 
-How many explicit questions does a document need? I encode a text as a language model's answers to a bank of named questions, so every feature has a meaning I can read, and then test how far that list can shrink before accuracy drops. Early pilots reached 91.4% accuracy on SST-2 with 32 questions and 88.8% on Rotten Tomatoes with 64. I treat those as descriptive results, not proof that it transfers, and I'm keeping the negative results too. The code is private for now, but I'm happy to share it with reviewers who email me. [Read the write-up](assets/projects/semantic-interrogation.pdf)
+How many explicit questions does a document need? I encode a text as a language model's answers to a bank of named questions, so every feature has a meaning I can read, and then test how far that list can shrink before accuracy drops. Early pilots reached 91.4% accuracy on SST-2 with 32 questions and 88.8% on Rotten Tomatoes with 64. I treat those as descriptive results, not proof that it transfers, and I'm keeping the negative results too. The code is private for now, but I'm happy to share it with reviewers who email me. **[Read the write-up](assets/projects/semantic-interrogation.pdf)**
 
 ## Applied projects
 
@@ -46,7 +46,7 @@ How many explicit questions does a document need? I encode a text as a language 
 
 *2025 – 2026*
 
-Real transaction data can't go into a classroom. Working with Mastercard data scientists, I used Gaussian mixture models and their differentially private versions to generate synthetic transaction data that keeps the useful structure without exposing anyone. Students then used it for portfolio projects. [Read the write-up](assets/projects/mastercard.pdf) or see the [code](https://github.com/2shakilrafi/mastercard-project).
+Real transaction data can't go into a classroom. Working with Mastercard data scientists, I used Gaussian mixture models and their differentially private versions to generate synthetic transaction data that keeps the useful structure without exposing anyone. Students then used it for portfolio projects. **[Read the write-up](assets/projects/mastercard.pdf)** or see the [code](https://github.com/2shakilrafi/mastercard-project).
 
 ### Maternal health at Arkansas Blue Cross and Blue Shield
 
@@ -70,10 +70,10 @@ Together with a psychiatric team, I measured whether an online motivational cour
 
 ### nnR
 
-An R package on [CRAN](https://CRAN.R-project.org/package=nnR) that implements the algebraic operations on neural networks from my dissertation. I wanted the math to be something you could run and poke at, not just read. It has full documentation, a vignette, and about 90% test coverage. [Read the write-up](assets/projects/nnR.pdf).
+An R package on [CRAN](https://CRAN.R-project.org/package=nnR) that implements the algebraic operations on neural networks from my dissertation. I wanted the math to be something you could run and poke at, not just read. It has full documentation, a vignette, and about 90% test coverage. **[Read the write-up](assets/projects/nnR.pdf)**.
 
 ### RustQC
 
-A [reimplementation of core FastQC functionality in Rust](https://github.com/2shakilrafi/rustqc) for sequencing quality control. Early in-memory benchmarks run more than 40 times faster than FastQC. [Read the write-up](assets/projects/rustqc.pdf).
+A [reimplementation of core FastQC functionality in Rust](https://github.com/2shakilrafi/rustqc) for sequencing quality control. Early in-memory benchmarks run more than 40 times faster than FastQC. **[Read the write-up](assets/projects/rustqc.pdf)**.
 
 More on [GitHub](https://github.com/2shakilrafi).
