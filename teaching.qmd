@@ -10,6 +10,10 @@ I've been teaching since 2020, first mathematics and now data science. My goal i
 
 I try to teach the reasoning before the tools. Students should know what a model assumes and how it can fail before they reach for a library. I also want them to practice the whole job, not just the modeling step: version control, cleaning messy data, testing, deployment, and explaining results to someone who isn't a data scientist. And I want them to treat privacy, bias, and leakage as part of the engineering, not an afterthought.
 
+## AI Teaching Fellow
+
+In 2026 I was selected as an AI Teaching Fellow for the College of Engineering at the University of Arkansas. The fellowship supports faculty exploring new ways to bring AI into teaching, and I'll share what I learn here as the ideas take shape.
+
 ## Courses
 
 ### Generative and Agentic AI

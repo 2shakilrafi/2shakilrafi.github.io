@@ -135,6 +135,10 @@ Thesis: *Topology and Computation.*
 ## Awards and service
 
 ::: facts
+[2026]{.label}
+
+[AI Teaching Fellow, College of Engineering, University of Arkansas]{}
+
 [2025]{.label}
 
 [Inaugural Award for Excellence in Course Design, University of Arkansas Global Campus]{}
